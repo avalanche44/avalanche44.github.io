@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>hexo</title>
+  <title>avalanche44</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-20T05:04:44.432Z</updated>
+  <updated>2019-07-20T05:51:54.644Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>avalanche44</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>why</title>
+    <title>After《simoun》</title>
     <link href="http://yoursite.com/2019/07/20/why/"/>
     <id>http://yoursite.com/2019/07/20/why/</id>
     <published>2019-07-20T05:04:44.000Z</published>
-    <updated>2019-07-20T05:04:44.432Z</updated>
+    <updated>2019-07-20T05:51:54.644Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;There are more things in heaven and earth, Horatio,&lt;br&gt;Than are dreamt of in your philosophy.&lt;br&gt;——Hamlet , Act I  Scene V 
+        
+      
+    
     </summary>
     
+    
+      <category term="anime" scheme="http://yoursite.com/tags/anime/"/>
     
   </entry>
   
