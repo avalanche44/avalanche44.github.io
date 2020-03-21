@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-18T05:57:32.806Z</updated>
+  <updated>2020-03-21T00:19:32.805Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,10 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>日出告白</title>
+    <link href="http://yoursite.com/2020/03/21/%E6%97%A5%E5%87%BA%E5%91%8A%E7%99%BD/"/>
+    <id>http://yoursite.com/2020/03/21/日出告白/</id>
+    <published>2020-03-21T00:14:04.000Z</published>
+    <updated>2020-03-21T00:19:32.805Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;新的白天就快來臨了。空氣微微發光。在腳步的運作中，眼前的色調與明暗漸漸孕育，草葉的線條被勾上了一筆，右手邊小丘的頂峯亮了起來。我們做夢似地一致往那不遠的高處走去。放下包裹並選定炊點後，我仰頭看過新的天空，很高很乾淨，又轉着眺望，都已光明起來——全部的地平線。雖然只是日升後兩
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Fantasy" scheme="http://yoursite.com/tags/Fantasy/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Play: Caligula</title>
     <link href="http://yoursite.com/2019/09/18/Play-Caligula/"/>
     <id>http://yoursite.com/2019/09/18/Play-Caligula/</id>
-    <published>2019-09-18T05:52:13.000Z</published>
+    <published>2019-09-18T12:52:13.000Z</published>
     <updated>2019-09-18T05:57:32.806Z</updated>
     
     <summary type="html">
@@ -44,7 +68,7 @@
     <title>一九年九月-短摘</title>
     <link href="http://yoursite.com/2019/08/30/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B9%9D%E6%9C%88-%E7%9F%AD%E6%91%98/"/>
     <id>http://yoursite.com/2019/08/30/一九年九月-短摘/</id>
-    <published>2019-08-30T13:13:00.000Z</published>
+    <published>2019-08-30T20:13:00.000Z</published>
     <updated>2019-09-21T13:57:47.333Z</updated>
     
     <summary type="html">
@@ -69,7 +93,7 @@
     <title>一九年九月-练习</title>
     <link href="http://yoursite.com/2019/08/30/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B9%9D%E6%9C%88-%E7%BB%83%E4%B9%A0/"/>
     <id>http://yoursite.com/2019/08/30/一九年九月-练习/</id>
-    <published>2019-08-30T13:12:15.000Z</published>
+    <published>2019-08-30T20:12:15.000Z</published>
     <updated>2019-09-16T14:10:46.695Z</updated>
     
     <summary type="html">
@@ -93,7 +117,7 @@
     <title>一九年九月-书影音</title>
     <link href="http://yoursite.com/2019/08/30/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B9%9D%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3/"/>
     <id>http://yoursite.com/2019/08/30/一九年九月-书影音/</id>
-    <published>2019-08-30T13:11:20.000Z</published>
+    <published>2019-08-30T20:11:20.000Z</published>
     <updated>2019-09-16T14:15:13.498Z</updated>
     
     <summary type="html">
@@ -117,7 +141,7 @@
     <title>迅 二十</title>
     <link href="http://yoursite.com/2019/08/30/%E8%BF%85-%E4%BA%8C%E5%8D%81/"/>
     <id>http://yoursite.com/2019/08/30/迅-二十/</id>
-    <published>2019-08-30T13:08:44.000Z</published>
+    <published>2019-08-30T20:08:44.000Z</published>
     <updated>2019-08-30T13:09:58.854Z</updated>
     
     <summary type="html">
@@ -141,7 +165,7 @@
     <title>自由之饼屑</title>
     <link href="http://yoursite.com/2019/08/30/%E8%87%AA%E7%94%B1%E4%B9%8B%E9%A5%BC%E5%B1%91/"/>
     <id>http://yoursite.com/2019/08/30/自由之饼屑/</id>
-    <published>2019-08-30T12:57:20.000Z</published>
+    <published>2019-08-30T19:57:20.000Z</published>
     <updated>2019-08-30T12:58:39.678Z</updated>
     
     <summary type="html">
@@ -166,7 +190,7 @@
     <title>迅 五</title>
     <link href="http://yoursite.com/2019/08/30/%E8%BF%85-%E4%BA%94/"/>
     <id>http://yoursite.com/2019/08/30/迅-五/</id>
-    <published>2019-08-30T12:54:02.000Z</published>
+    <published>2019-08-30T19:54:02.000Z</published>
     <updated>2019-08-30T12:54:46.339Z</updated>
     
     <summary type="html">
@@ -190,7 +214,7 @@
     <title>S1E3中对亨莉耶塔与黎戈的比较</title>
     <link href="http://yoursite.com/2019/08/02/S1E3%E4%B8%AD%E5%AF%B9%E4%BA%A8%E8%8E%89%E8%80%B6%E5%A1%94%E4%B8%8E%E9%BB%8E%E6%88%88%E7%9A%84%E6%AF%94%E8%BE%83/"/>
     <id>http://yoursite.com/2019/08/02/S1E3中对亨莉耶塔与黎戈的比较/</id>
-    <published>2019-08-01T16:00:11.000Z</published>
+    <published>2019-08-01T23:00:11.000Z</published>
     <updated>2019-08-01T16:11:12.374Z</updated>
     
     <summary type="html">
@@ -214,7 +238,7 @@
     <title>有朵昙花</title>
     <link href="http://yoursite.com/2019/08/01/%E6%9C%89%E6%9C%B5%E6%98%99%E8%8A%B1/"/>
     <id>http://yoursite.com/2019/08/01/有朵昙花/</id>
-    <published>2019-08-01T13:47:32.000Z</published>
+    <published>2019-08-01T20:47:32.000Z</published>
     <updated>2019-08-01T15:49:39.654Z</updated>
     
     <summary type="html">
@@ -238,7 +262,7 @@
     <title>一九年八月-摘记</title>
     <link href="http://yoursite.com/2019/08/01/%E4%B8%80%E4%B9%9D%E5%B9%B4%E5%85%AB%E6%9C%88-%E6%91%98%E8%AE%B0/"/>
     <id>http://yoursite.com/2019/08/01/一九年八月-摘记/</id>
-    <published>2019-08-01T13:41:26.000Z</published>
+    <published>2019-08-01T20:41:26.000Z</published>
     <updated>2019-08-30T13:32:32.857Z</updated>
     
     <summary type="html">
@@ -266,7 +290,7 @@
     <title>木叶</title>
     <link href="http://yoursite.com/2019/07/30/%E6%9C%A8%E5%8F%B6/"/>
     <id>http://yoursite.com/2019/07/30/木叶/</id>
-    <published>2019-07-30T06:02:30.000Z</published>
+    <published>2019-07-30T13:02:30.000Z</published>
     <updated>2019-07-30T06:14:29.318Z</updated>
     
     <summary type="html">
@@ -288,7 +312,7 @@
     <title>一九年七月下旬-摘记</title>
     <link href="http://yoursite.com/2019/07/21/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B8%83%E6%9C%88%E4%B8%8B%E6%97%AC-%E6%91%98%E8%AE%B0/"/>
     <id>http://yoursite.com/2019/07/21/一九年七月下旬-摘记/</id>
-    <published>2019-07-21T08:59:20.000Z</published>
+    <published>2019-07-21T15:59:20.000Z</published>
     <updated>2019-08-01T15:58:27.288Z</updated>
     
     <summary type="html">
@@ -314,7 +338,7 @@
     <title>一九年七月下旬-書影音</title>
     <link href="http://yoursite.com/2019/07/20/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B8%83%E6%9C%88%E4%B8%8B%E6%97%AC-%E6%9B%B8%E5%BD%B1%E9%9F%B3/"/>
     <id>http://yoursite.com/2019/07/20/一九年七月下旬-書影音/</id>
-    <published>2019-07-20T14:56:30.000Z</published>
+    <published>2019-07-20T21:56:30.000Z</published>
     <updated>2019-08-30T13:28:19.405Z</updated>
     
     <summary type="html">
@@ -339,7 +363,7 @@
     <title>诗篇一三七1-6 </title>
     <link href="http://yoursite.com/2019/07/20/%E8%AF%97%E7%AF%87%E4%B8%80%E4%B8%89%E4%B8%831-6/"/>
     <id>http://yoursite.com/2019/07/20/诗篇一三七1-6/</id>
-    <published>2019-07-20T06:05:13.000Z</published>
+    <published>2019-07-20T13:05:13.000Z</published>
     <updated>2019-07-20T07:05:31.101Z</updated>
     
     <summary type="html">
@@ -363,7 +387,7 @@
     <title>After《simoun》</title>
     <link href="http://yoursite.com/2019/07/20/After%E3%80%8Asimoun%E3%80%8B/"/>
     <id>http://yoursite.com/2019/07/20/After《simoun》/</id>
-    <published>2019-07-20T05:04:44.000Z</published>
+    <published>2019-07-20T12:04:44.000Z</published>
     <updated>2019-07-20T07:17:19.119Z</updated>
     
     <summary type="html">
