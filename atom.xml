@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-21T00:19:32.805Z</updated>
+  <updated>2020-03-21T00:32:37.880Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/03/21/%E6%97%A5%E5%87%BA%E5%91%8A%E7%99%BD/"/>
     <id>http://yoursite.com/2020/03/21/日出告白/</id>
     <published>2020-03-21T00:14:04.000Z</published>
-    <updated>2020-03-21T00:19:32.805Z</updated>
+    <updated>2020-03-21T00:32:37.880Z</updated>
     
     <summary type="html">
     
@@ -37,6 +37,30 @@
     
     
       <category term="Fantasy" scheme="http://yoursite.com/tags/Fantasy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>和爸吵架</title>
+    <link href="http://yoursite.com/2020/03/14/Mother/"/>
+    <id>http://yoursite.com/2020/03/14/Mother/</id>
+    <published>2020-03-14T00:38:12.000Z</published>
+    <updated>2020-03-21T00:34:35.725Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我們家在蘇省蘇市的一個小地方，我爸爸是醫生，做兒科方面比較多，不過都算是全科醫生吧，小地方傍晚出門散步，時不時會遇到我不認識的本地人，然後走過來跟他將最近自己這里那裏不舒服怎麼一回事，或者最近吃了什麼藥感覺如何如何之類，然後被他極其冷淡簡單地半句話應對然後離開，另外最近幾年
+        
+      
+    
+    </summary>
+    
+    
+      <category term="diary" scheme="http://yoursite.com/tags/diary/"/>
     
   </entry>
   
@@ -90,11 +114,11 @@
   </entry>
   
   <entry>
-    <title>一九年九月-练习</title>
+    <title>凌霄的挣扎</title>
     <link href="http://yoursite.com/2019/08/30/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B9%9D%E6%9C%88-%E7%BB%83%E4%B9%A0/"/>
     <id>http://yoursite.com/2019/08/30/一九年九月-练习/</id>
     <published>2019-08-30T20:12:15.000Z</published>
-    <updated>2019-09-16T14:10:46.695Z</updated>
+    <updated>2020-03-21T00:35:39.529Z</updated>
     
     <summary type="html">
     
@@ -102,7 +126,7 @@
       
         
         
-          &lt;p&gt;《凌霄的挣扎》：对面人家的围栏上攀着一棵很大的凌霄。今夏一直没见往年繁盛橙花，仔细一看竟然全是秃枝，这才听说其根部前不久已被砍了。再问为何砍，说目的是防火。看着被弃置在铁栅上的沉重乱枝，恍惚意识到现实中的人其实权力太大，总能在任性的理由中轻松摧毁地上各色的生灵与景象。不过，
+          &lt;p&gt;对面人家的围栏上攀着一棵很大的凌霄。今夏一直没见往年繁盛橙花，仔细一看竟然全是秃枝，这才听说其根部前不久已被砍了。再问为何砍，说目的是防火。看着被弃置在铁栅上的沉重乱枝，恍惚意识到现实中的人其实权力太大，总能在任性的理由中轻松摧毁地上各色的生灵与景象。不过，关于这种自家毁树
         
       
     
