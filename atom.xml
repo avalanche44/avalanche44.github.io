@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-18T17:10:04.636Z</updated>
+  <updated>2020-07-18T17:20:32.621Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/07/17/%E4%BA%8C%E3%80%87%E5%B9%B4%E4%B8%83%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%91%98%E6%B5%81%E6%B0%B4%E8%B4%A6/"/>
     <id>http://yoursite.com/2020/07/17/二〇年七月-书影音摘流水账/</id>
     <published>2020-07-17T22:00:45.000Z</published>
-    <updated>2020-07-18T17:10:04.636Z</updated>
+    <updated>2020-07-18T17:20:32.621Z</updated>
     
     <summary type="html">
     
@@ -256,6 +256,32 @@
     
     
       <category term="fantasy" scheme="http://yoursite.com/tags/fantasy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一九年七月下旬-摘记</title>
+    <link href="http://yoursite.com/2019/07/21/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B8%83%E6%9C%88%E4%B8%8B%E6%97%AC-%E6%91%98%E8%AE%B0/"/>
+    <id>http://yoursite.com/2019/07/21/一九年七月下旬-摘记/</id>
+    <published>2019-07-21T15:59:20.000Z</published>
+    <updated>2019-08-01T15:58:27.288Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;《Tall Noser》&lt;/p&gt;
+&lt;p&gt;词：小川美潮  曲：板仓文&lt;/p&gt;
+&lt;p&gt;目の前には次々に浮かぶ&lt;br&gt;Paradise
+        
+      
+    
+    </summary>
+    
+    
+      <category term="fracture" scheme="http://yoursite.com/tags/fracture/"/>
     
   </entry>
   
