@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-19T18:34:54.608Z</updated>
+  <updated>2020-07-23T17:13:57.016Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/07/17/%E4%BA%8C%E3%80%87%E5%B9%B4%E4%B8%83%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%91%98%E6%B5%81%E6%B0%B4%E8%B4%A6/"/>
     <id>http://yoursite.com/2020/07/17/二〇年七月-书影音摘流水账/</id>
     <published>2020-07-17T22:00:45.000Z</published>
-    <updated>2020-07-19T18:34:54.608Z</updated>
+    <updated>2020-07-23T17:13:57.016Z</updated>
     
     <summary type="html">
     
@@ -236,11 +236,11 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>木叶</title>
     <link href="http://yoursite.com/2019/07/30/%E6%9C%A8%E5%8F%B6/"/>
     <id>http://yoursite.com/2019/07/30/木叶/</id>
-    <published>2019-07-30T06:02:30.646Z</published>
-    <updated>2020-07-19T18:38:51.514Z</updated>
+    <published>2019-07-30T13:02:30.000Z</published>
+    <updated>2020-07-23T17:15:00.543Z</updated>
     
     <summary type="html">
     
@@ -248,13 +248,14 @@
       
         
         
-          &lt;hr&gt;
-&lt;p&gt;title: 木叶&lt;br&gt;date: 2019-07-30 14:02:30&lt;br&gt;tags:
+          &lt;p&gt;一、这个时空&lt;br&gt;“斑、斑、”，一个墨蓝色头发扎着马尾、穿着蓝布衣服罩着小斗篷的女孩，约莫五六岁，撒娇式地摇着身旁那位牵着自己的老人的手臂，幅度大得像要荡在他身上，抬起深色瞳孔的纯净双目：“‘查——克拉’，是什么？”&lt;br&gt;老人慈爱地看向她，却似乎习惯性地没有露出明显的微
         
       
     
     </summary>
     
+    
+      <category term="fiction" scheme="http://yoursite.com/tags/fiction/"/>
     
   </entry>
   
