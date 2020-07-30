@@ -117,7 +117,7 @@
     <link href="http://yoursite.com/2020/06/15/%E5%88%9D%E6%AC%A1%E6%B1%89%E5%8C%96%E8%AE%B0%E5%BD%95/"/>
     <id>http://yoursite.com/2020/06/15/初次汉化记录/</id>
     <published>2020-06-15T00:24:01.000Z</published>
-    <updated>2020-06-17T05:28:44.756Z</updated>
+    <updated>2020-07-30T21:47:32.403Z</updated>
     
     <summary type="html">
     
@@ -134,7 +134,7 @@
     </summary>
     
     
-      <category term="diary" scheme="http://yoursite.com/tags/diary/"/>
+      <category term="comment" scheme="http://yoursite.com/tags/comment/"/>
     
   </entry>
   
@@ -216,7 +216,7 @@
     <link href="http://yoursite.com/2019/08/30/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B9%9D%E6%9C%88-%E7%BB%83%E4%B9%A0/"/>
     <id>http://yoursite.com/2019/08/30/一九年九月-练习/</id>
     <published>2019-08-30T20:12:15.000Z</published>
-    <updated>2020-03-21T00:35:39.529Z</updated>
+    <updated>2020-07-30T21:48:36.432Z</updated>
     
     <summary type="html">
     
@@ -231,7 +231,7 @@
     </summary>
     
     
-      <category term="diary" scheme="http://yoursite.com/tags/diary/"/>
+      <category term="moment" scheme="http://yoursite.com/tags/moment/"/>
     
   </entry>
   
