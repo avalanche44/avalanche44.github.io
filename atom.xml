@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-11-02T04:53:00.862Z</updated>
+  <updated>2020-11-02T05:10:59.021Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2020/11/02/%E4%BA%8C%E3%80%87%E5%B9%B4%E5%8D%81%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%91%98%E6%B5%81%E6%B0%B4%E8%B4%A6/"/>
-    <id>http://yoursite.com/2020/11/02/二〇年十月-书影音摘流水账/</id>
-    <published>2020-11-02T04:47:02.839Z</published>
-    <updated>2020-11-02T04:53:00.862Z</updated>
+    <title>二〇年十月-书影音摘流水账</title>
+    <link href="http://yoursite.com/2020/10/31/%E4%BA%8C%E3%80%87%E5%B9%B4%E5%8D%81%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%91%98%E6%B5%81%E6%B0%B4%E8%B4%A6/"/>
+    <id>http://yoursite.com/2020/10/31/二〇年十月-书影音摘流水账/</id>
+    <published>2020-10-31T11:11:11.000Z</published>
+    <updated>2020-11-02T05:10:59.021Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;h1 id=&quot;十月&quot;&gt;&lt;a href=&quot;#十月&quot; class=&quot;headerlink&quot; title=&quot;十月&quot;&gt;&lt;/a&gt;十月&lt;/h1&gt;&lt;p&gt;Next Aim: BE A HUMAN, NOT A GHOST.&lt;/p&gt;
+          &lt;h2 id=&quot;十月&quot;&gt;&lt;a href=&quot;#十月&quot; class=&quot;headerlink&quot; title=&quot;十月&quot;&gt;&lt;/a&gt;十月&lt;/h2&gt;&lt;p&gt;Next Aim: BE A HUMAN, NOT A GHOST.&lt;/p&gt;
 &lt;h3 id=&quot;梦&quot;&gt;&lt;a href=&quot;#梦&quot;
         
       
@@ -37,14 +37,16 @@
     </summary>
     
     
+      <category term="mark" scheme="http://yoursite.com/tags/mark/"/>
+    
   </entry>
   
   <entry>
     <title>二〇年八月-书影音摘流水账</title>
-    <link href="http://yoursite.com/2020/10/29/%E4%BA%8C%E3%80%87%E5%B9%B4%E5%85%AB%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%91%98%E6%B5%81%E6%B0%B4%E8%B4%A6/"/>
-    <id>http://yoursite.com/2020/10/29/二〇年八月-书影音摘流水账/</id>
-    <published>2020-10-29T22:06:46.000Z</published>
-    <updated>2020-10-29T22:23:52.220Z</updated>
+    <link href="http://yoursite.com/2020/08/29/%E4%BA%8C%E3%80%87%E5%B9%B4%E5%85%AB%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%91%98%E6%B5%81%E6%B0%B4%E8%B4%A6/"/>
+    <id>http://yoursite.com/2020/08/29/二〇年八月-书影音摘流水账/</id>
+    <published>2020-08-29T21:06:46.000Z</published>
+    <updated>2020-11-02T05:11:02.548Z</updated>
     
     <summary type="html">
     
