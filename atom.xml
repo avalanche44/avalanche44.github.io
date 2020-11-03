@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-11-02T05:13:31.888Z</updated>
+  <updated>2020-11-03T17:56:39.646Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>二〇年十月-书影音摘流水账</title>
-    <link href="http://yoursite.com/2020/10/31/%E4%BA%8C%E3%80%87%E5%B9%B4%E5%8D%81%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%91%98%E6%B5%81%E6%B0%B4%E8%B4%A6/"/>
-    <id>http://yoursite.com/2020/10/31/二〇年十月-书影音摘流水账/</id>
+    <title>二〇年十月</title>
+    <link href="http://yoursite.com/2020/10/31/202010/"/>
+    <id>http://yoursite.com/2020/10/31/202010/</id>
     <published>2020-10-31T11:11:11.000Z</published>
-    <updated>2020-11-02T05:13:31.888Z</updated>
+    <updated>2020-11-03T17:56:39.646Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,7 @@
       
         
         
-          &lt;h2 id=&quot;十月&quot;&gt;&lt;a href=&quot;#十月&quot; class=&quot;headerlink&quot; title=&quot;十月&quot;&gt;&lt;/a&gt;十月&lt;/h2&gt;&lt;p&gt;Next Aim: BE A HUMAN, NOT A GHOST.&lt;/p&gt;
-&lt;h3 id=&quot;梦&quot;&gt;&lt;a href=&quot;#梦&quot;
+          &lt;h3 id=&quot;影&quot;&gt;&lt;a href=&quot;#影&quot; class=&quot;headerlink&quot;
         
       
     
@@ -42,11 +41,11 @@
   </entry>
   
   <entry>
-    <title>二〇年八月-书影音摘流水账</title>
-    <link href="http://yoursite.com/2020/08/29/%E4%BA%8C%E3%80%87%E5%B9%B4%E5%85%AB%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%91%98%E6%B5%81%E6%B0%B4%E8%B4%A6/"/>
-    <id>http://yoursite.com/2020/08/29/二〇年八月-书影音摘流水账/</id>
+    <title>二〇年八月</title>
+    <link href="http://yoursite.com/2020/08/29/202008/"/>
+    <id>http://yoursite.com/2020/08/29/202008/</id>
     <published>2020-08-29T21:06:46.000Z</published>
-    <updated>2020-11-02T05:11:02.548Z</updated>
+    <updated>2020-11-03T18:01:38.703Z</updated>
     
     <summary type="html">
     
@@ -54,7 +53,8 @@
       
         
         
-          &lt;h2 id=&quot;日志&quot;&gt;&lt;a href=&quot;#日志&quot; class=&quot;headerlink&quot; title=&quot;日志&quot;&gt;&lt;/a&gt;日志&lt;/h2&gt;&lt;h3 id=&quot;梦&quot;&gt;&lt;a href=&quot;#梦&quot; class=&quot;headerlink&quot; title=&quot;梦&quot;&gt;&lt;/a&gt;梦&lt;/h3&gt;&lt;p&gt;8.2
+          &lt;h3 id=&quot;书&quot;&gt;&lt;a href=&quot;#书&quot; class=&quot;headerlink&quot; title=&quot;书&quot;&gt;&lt;/a&gt;书&lt;/h3&gt;&lt;p&gt;人类衰退以后1&lt;/p&gt;
+&lt;h3 id=&quot;文&quot;&gt;&lt;a href=&quot;#文&quot; class=&quot;headerlink&quot;
         
       
     
@@ -62,54 +62,6 @@
     
     
       <category term="mark" scheme="http://yoursite.com/tags/mark/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>七月的芦苇在想</title>
-    <link href="http://yoursite.com/2020/07/30/%E4%B8%83%E6%9C%88%E7%9A%84%E8%8A%A6%E8%8B%87%E5%9C%A8%E6%83%B3/"/>
-    <id>http://yoursite.com/2020/07/30/七月的芦苇在想/</id>
-    <published>2020-07-30T21:37:01.000Z</published>
-    <updated>2020-07-30T21:39:26.656Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h4 id=&quot;7-2-7-3-梦&quot;&gt;&lt;a href=&quot;#7-2-7-3-梦&quot; class=&quot;headerlink&quot; title=&quot;7.2-7.3 梦&quot;&gt;&lt;/a&gt;7.2-7.3
-        
-      
-    
-    </summary>
-    
-    
-      <category term="diary" scheme="http://yoursite.com/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[伪梦]将死</title>
-    <link href="http://yoursite.com/2020/07/30/%E6%A2%A6-%E5%B0%86%E6%AD%BB/"/>
-    <id>http://yoursite.com/2020/07/30/梦-将死/</id>
-    <published>2020-07-30T21:31:53.000Z</published>
-    <updated>2020-07-30T21:37:25.319Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;深夜臨睡前產生的幻覺。&lt;br&gt;夢到朋友死了。其禮物通過電子郵件發送過來。留給我的是五首詩。
-        
-      
-    
-    </summary>
-    
-    
-      <category term="moment" scheme="http://yoursite.com/tags/moment/"/>
     
   </entry>
   
@@ -118,7 +70,7 @@
     <link href="http://yoursite.com/2020/07/30/%E4%B8%8E%E5%B8%83%E8%A2%8B%E6%88%8F%E7%9A%84%E6%9A%82%E5%88%AB/"/>
     <id>http://yoursite.com/2020/07/30/与布袋戏的暂别/</id>
     <published>2020-07-30T21:29:50.000Z</published>
-    <updated>2020-07-30T21:34:20.674Z</updated>
+    <updated>2020-07-30T14:34:20.000Z</updated>
     
     <summary type="html">
     
@@ -138,11 +90,11 @@
   </entry>
   
   <entry>
-    <title>二〇年七月-书影音摘流水账</title>
-    <link href="http://yoursite.com/2020/07/17/%E4%BA%8C%E3%80%87%E5%B9%B4%E4%B8%83%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3%E6%91%98%E6%B5%81%E6%B0%B4%E8%B4%A6/"/>
-    <id>http://yoursite.com/2020/07/17/二〇年七月-书影音摘流水账/</id>
+    <title>二〇年七月</title>
+    <link href="http://yoursite.com/2020/07/17/202007/"/>
+    <id>http://yoursite.com/2020/07/17/202007/</id>
     <published>2020-07-17T22:00:45.000Z</published>
-    <updated>2020-07-30T21:39:46.147Z</updated>
+    <updated>2020-11-03T18:02:55.184Z</updated>
     
     <summary type="html">
     
@@ -150,7 +102,7 @@
       
         
         
-          &lt;h2 id=&quot;书影音&quot;&gt;&lt;a href=&quot;#书影音&quot; class=&quot;headerlink&quot; title=&quot;书影音&quot;&gt;&lt;/a&gt;书影音&lt;/h2&gt;&lt;h3 id=&quot;研究日志&quot;&gt;&lt;a href=&quot;#研究日志&quot; class=&quot;headerlink&quot;
+          &lt;h3 id=&quot;神魔布袋戏-血魔劫（缓慢观看）&quot;&gt;&lt;a href=&quot;#神魔布袋戏-血魔劫（缓慢观看）&quot; class=&quot;headerlink&quot;
         
       
     
@@ -162,11 +114,11 @@
   </entry>
   
   <entry>
-    <title>初次汉化感想</title>
-    <link href="http://yoursite.com/2020/06/15/%E5%88%9D%E6%AC%A1%E6%B1%89%E5%8C%96%E8%AE%B0%E5%BD%95/"/>
-    <id>http://yoursite.com/2020/06/15/初次汉化记录/</id>
-    <published>2020-06-15T00:24:01.000Z</published>
-    <updated>2020-07-30T21:47:32.403Z</updated>
+    <title>Play: Caligula</title>
+    <link href="http://yoursite.com/2019/09/18/Play-Caligula/"/>
+    <id>http://yoursite.com/2019/09/18/Play-Caligula/</id>
+    <published>2019-09-18T12:52:13.000Z</published>
+    <updated>2020-11-03T17:59:27.232Z</updated>
     
     <summary type="html">
     
@@ -174,146 +126,23 @@
       
         
         
-          &lt;p&gt;6749003206&lt;/p&gt;
-&lt;p&gt;怀着对—–先生的好奇或喜爱而抵达这个贴吧的你，你好吗？最近如何呢？啊，我是在这里第二次发帖的新人，可以叫我—-。&lt;/p&gt;
-&lt;p&gt;嘿嘿，奇怪的开场问候完成了…更奇怪的开端发生在大约18个小时之前，我怀着浑浊不明的心情突然搜索起了漫画汉化的软
+          &lt;p&gt;卡利古拉 加缪
         
       
     
     </summary>
     
     
-      <category term="comment" scheme="http://yoursite.com/tags/comment/"/>
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
     
   </entry>
   
   <entry>
-    <title>［粗略的日語中譯］路</title>
-    <link href="http://yoursite.com/2020/05/29/%E8%B7%AF/"/>
-    <id>http://yoursite.com/2020/05/29/路/</id>
-    <published>2020-05-29T00:19:22.000Z</published>
-    <updated>2020-06-17T05:46:42.030Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;本期的廣播就到此結束。還有4分鐘。有一件關於我自身的事情想向大家告知。我， ✕  ✕  ✕  ✕ ，從大約半年前搬到新住處後，和另一個對我個人而言非常重要的人一起生活了。
-        
-      
-    
-    </summary>
-    
-    
-      <category term="translation" scheme="http://yoursite.com/tags/translation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[夢]冰唱片</title>
-    <link href="http://yoursite.com/2020/05/23/%E5%A4%A2-%E5%86%B0%E5%94%B1%E7%89%87/"/>
-    <id>http://yoursite.com/2020/05/23/夢-冰唱片/</id>
-    <published>2020-05-23T05:20:08.000Z</published>
-    <updated>2020-07-19T18:30:27.657Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;這是與你聊天散步後的我，第二天所做的夢：&lt;/p&gt;
-&lt;p&gt;我們在一個冰的世界：灰白色的冰原大地，平坦寬廣，且過於平靜，不確切的光線稍微過量，給我一種異樣的封閉感。我們倆就在那樣的世界里。夢中的你蹲在我的右前方，我們兩個（是小孩子？）共同圍着冰原上一個圓面寬度一掌有餘、厚度二三
-        
-      
-    
-    </summary>
-    
-    
-      <category term="moment" scheme="http://yoursite.com/tags/moment/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日出告白</title>
-    <link href="http://yoursite.com/2020/03/21/%E6%97%A5%E5%87%BA%E5%91%8A%E7%99%BD/"/>
-    <id>http://yoursite.com/2020/03/21/日出告白/</id>
-    <published>2020-03-21T00:14:04.000Z</published>
-    <updated>2020-07-19T18:30:07.325Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;新的白天快來臨了。空氣微微發光。在腳步的運作中，色調與明暗正在孕育，草葉的線條被勾上一筆，右手邊小丘的頂峯亮了起來。我們做夢似地一致往那不遠的高地走去。放下包裹、選定炊點後，我仰頭看過新的天空，很高很乾淨，又轉着眺望，都已光明起來——全部的地平線。只是日出後继续赶路前两时的
-        
-      
-    
-    </summary>
-    
-    
-      <category term="moment" scheme="http://yoursite.com/tags/moment/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于志业</title>
-    <link href="http://yoursite.com/2020/01/01/%E5%BF%97%E4%B8%9A/"/>
-    <id>http://yoursite.com/2020/01/01/志业/</id>
-    <published>2020-01-01T19:34:45.000Z</published>
-    <updated>2020-10-29T22:07:37.364Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;“我实实在在地告诉你们：一粒麦子不落在地里死了，仍旧是一粒；若是死了，就结出许多子粒来。”&lt;/p&gt;
-&lt;p&gt;“上帝是以表象来评判我们的吗？我想是的。”&lt;/p&gt;
-&lt;p&gt;24岁-30岁（去世前）：&lt;br&gt;研究生：声学技术，增强乐器，以及在当下社会能够保存和放大非技术者呼吁与心声的
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>凌霄的挣扎</title>
-    <link href="http://yoursite.com/2019/08/30/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B9%9D%E6%9C%88-%E7%BB%83%E4%B9%A0/"/>
-    <id>http://yoursite.com/2019/08/30/一九年九月-练习/</id>
-    <published>2019-08-30T20:12:15.000Z</published>
-    <updated>2020-07-30T21:48:36.432Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;对面人家的围栏上攀着一棵很大的凌霄。今夏一直没见往年繁盛橙花，仔细一看竟然全是秃枝，这才听说其根部前不久已被砍了。再问为何砍，说目的是防火。看着被弃置在铁栅上的沉重乱枝，恍惚意识到现实中的人其实权力太大，总能在任性的理由中轻松摧毁地上各色的生灵与景象。不过，关于这种自家毁树
-        
-      
-    
-    </summary>
-    
-    
-      <category term="moment" scheme="http://yoursite.com/tags/moment/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一九年九月-书影音</title>
-    <link href="http://yoursite.com/2019/08/30/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B9%9D%E6%9C%88-%E4%B9%A6%E5%BD%B1%E9%9F%B3/"/>
-    <id>http://yoursite.com/2019/08/30/一九年九月-书影音/</id>
-    <published>2019-08-30T20:11:20.000Z</published>
-    <updated>2019-09-16T14:15:13.498Z</updated>
+    <title>一九年九月</title>
+    <link href="http://yoursite.com/2019/08/30/201909/"/>
+    <id>http://yoursite.com/2019/08/30/201909/</id>
+    <published>2019-08-30T20:13:00.000Z</published>
+    <updated>2020-11-03T18:12:23.402Z</updated>
     
     <summary type="html">
     
@@ -333,11 +162,108 @@
   </entry>
   
   <entry>
+    <title>迅 二十</title>
+    <link href="http://yoursite.com/2019/08/30/%E8%BF%85-%E4%BA%8C%E5%8D%81/"/>
+    <id>http://yoursite.com/2019/08/30/迅-二十/</id>
+    <published>2019-08-30T20:08:44.000Z</published>
+    <updated>2020-11-03T18:07:01.836Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;5&lt;br&gt;四，《关于陀思妥夫斯基的事》是应三笠书房之托而作的，是写给读者看的绍介文，但我在这里，说明着被压迫者对于压迫者，不是奴隶，就是敌人，决不能成为朋友，所以彼此的道德，并不相同。&lt;br&gt;13&lt;br&gt;然而还剩着困难的问题:书店是不能不陆续印行新书和杂志的，所以还是永远有
+        
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>列维纳斯-塔木德四讲</title>
+    <link href="http://yoursite.com/2019/08/30/%E5%88%97%E7%BB%B4%E7%BA%B3%E6%96%AF-%E5%A1%94%E6%9C%A8%E5%BE%B7%E5%9B%9B%E8%AE%B2/"/>
+    <id>http://yoursite.com/2019/08/30/列维纳斯-塔木德四讲/</id>
+    <published>2019-08-30T20:05:27.000Z</published>
+    <updated>2020-11-03T18:05:04.502Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;哲学学者可能，道德伦理哲学学者难可能。真，是，在；本来，应当，必须。&lt;br&gt;塔木德分两部分：密西拿，论题，公元二世纪末以文字形式被犹大•哈那西 拉比
+        
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自由之饼屑</title>
+    <link href="http://yoursite.com/2019/08/30/%E8%87%AA%E7%94%B1%E4%B9%8B%E9%A5%BC%E5%B1%91/"/>
+    <id>http://yoursite.com/2019/08/30/自由之饼屑/</id>
+    <published>2019-08-30T19:57:20.000Z</published>
+    <updated>2020-11-03T18:17:49.786Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;价值多元论&lt;/p&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>迅 五</title>
+    <link href="http://yoursite.com/2019/08/30/%E8%BF%85-%E4%BA%94/"/>
+    <id>http://yoursite.com/2019/08/30/迅-五/</id>
+    <published>2019-08-30T19:54:02.000Z</published>
+    <updated>2020-11-03T18:07:12.080Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;49《红的花》爱罗先珂
+        
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
     <title>S1E3中对亨莉耶塔与黎戈的比较</title>
     <link href="http://yoursite.com/2019/08/02/S1E3%E4%B8%AD%E5%AF%B9%E4%BA%A8%E8%8E%89%E8%80%B6%E5%A1%94%E4%B8%8E%E9%BB%8E%E6%88%88%E7%9A%84%E6%AF%94%E8%BE%83/"/>
     <id>http://yoursite.com/2019/08/02/S1E3中对亨莉耶塔与黎戈的比较/</id>
     <published>2019-08-01T23:00:11.000Z</published>
-    <updated>2020-07-30T21:44:06.871Z</updated>
+    <updated>2020-07-30T14:44:06.000Z</updated>
     
     <summary type="html">
     
@@ -357,35 +283,11 @@
   </entry>
   
   <entry>
-    <title>有朵昙花</title>
-    <link href="http://yoursite.com/2019/08/01/%E6%9C%89%E6%9C%B5%E6%98%99%E8%8A%B1/"/>
-    <id>http://yoursite.com/2019/08/01/有朵昙花/</id>
-    <published>2019-08-01T20:47:32.000Z</published>
-    <updated>2020-07-23T18:09:51.471Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;​       
-        
-      
-    
-    </summary>
-    
-    
-      <category term="moment" scheme="http://yoursite.com/tags/moment/"/>
-    
-  </entry>
-  
-  <entry>
     <title>木叶</title>
     <link href="http://yoursite.com/2019/07/30/%E6%9C%A8%E5%8F%B6/"/>
     <id>http://yoursite.com/2019/07/30/木叶/</id>
     <published>2019-07-30T13:02:30.000Z</published>
-    <updated>2020-07-23T17:15:00.543Z</updated>
+    <updated>2020-07-23T10:15:00.000Z</updated>
     
     <summary type="html">
     
@@ -405,37 +307,11 @@
   </entry>
   
   <entry>
-    <title>一九年七月下旬-摘记</title>
-    <link href="http://yoursite.com/2019/07/21/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B8%83%E6%9C%88%E4%B8%8B%E6%97%AC-%E6%91%98%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/07/21/一九年七月下旬-摘记/</id>
-    <published>2019-07-21T15:59:20.000Z</published>
-    <updated>2020-07-18T17:25:30.337Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;《Tall Noser》&lt;/p&gt;
-&lt;p&gt;词：小川美潮  曲：板仓文&lt;/p&gt;
-&lt;p&gt;目の前には次々に浮かぶ&lt;br&gt;Paradise
-        
-      
-    
-    </summary>
-    
-    
-      <category term="mark" scheme="http://yoursite.com/tags/mark/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一九年七月下旬-書影音</title>
-    <link href="http://yoursite.com/2019/07/20/%E4%B8%80%E4%B9%9D%E5%B9%B4%E4%B8%83%E6%9C%88%E4%B8%8B%E6%97%AC-%E6%9B%B8%E5%BD%B1%E9%9F%B3/"/>
-    <id>http://yoursite.com/2019/07/20/一九年七月下旬-書影音/</id>
+    <title>一九年七月</title>
+    <link href="http://yoursite.com/2019/07/20/201907/"/>
+    <id>http://yoursite.com/2019/07/20/201907/</id>
     <published>2019-07-20T21:56:30.000Z</published>
-    <updated>2019-08-30T13:28:19.405Z</updated>
+    <updated>2020-11-03T18:13:13.332Z</updated>
     
     <summary type="html">
     
@@ -456,11 +332,35 @@
   </entry>
   
   <entry>
+    <title>诗篇一三七1-6 </title>
+    <link href="http://yoursite.com/2019/07/20/%E8%AF%97%E7%AF%87%E4%B8%80%E4%B8%89%E4%B8%831-6/"/>
+    <id>http://yoursite.com/2019/07/20/诗篇一三七1-6/</id>
+    <published>2019-07-20T13:05:13.000Z</published>
+    <updated>2020-11-03T18:06:50.719Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我们曾在巴比伦的河边坐下，一追想锡安就哭了。我们把琴挂在那里的柳树上。因为在那里掳掠我们的，要我们歌唱；强夺我们的，要我们作乐，说：”给我们唱一首锡安歌吧。”&lt;br&gt;我们怎能在外邦唱耶和华的歌呢？耶路撒冷啊，我若忘记你，情愿我的右手忘记技巧。我若不纪念你，若不看耶路撒冷，过
+        
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
     <title>After《simoun》</title>
     <link href="http://yoursite.com/2019/07/20/After%E3%80%8Asimoun%E3%80%8B/"/>
     <id>http://yoursite.com/2019/07/20/After《simoun》/</id>
     <published>2019-07-20T12:04:44.000Z</published>
-    <updated>2020-07-30T21:44:21.765Z</updated>
+    <updated>2020-07-30T14:44:20.000Z</updated>
     
     <summary type="html">
     
