@@ -2,479 +2,68 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>一些抒情</title><link href='https://raw.githubusercontent.com/slashfoo/lmweb/master/style/latinmodern-mono-light.css' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
-.mac-os-11 { --title-bar-height:28px; }
-html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
-iframe { margin: auto; }
-a.url { word-break: break-all; }
-a:active, a:hover { outline: 0px; }
-.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
-#write.first-line-indent p { text-indent: 2em; }
-#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
-#write.first-line-indent li { margin-left: 2em; }
-.for-image #write { padding-left: 8px; padding-right: 8px; }
-body.typora-export { padding-left: 30px; padding-right: 30px; }
-.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
-.typora-export .task-list-item input { pointer-events: none; }
-@media screen and (max-width: 500px) {
-  body.typora-export { padding-left: 0px; padding-right: 0px; }
-  #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
-}
-#write li > figure:last-child { margin-bottom: 0.5rem; }
-#write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
-button, input, select, textarea { color: inherit; font: inherit; }
-input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
-*, ::after, ::before { box-sizing: border-box; }
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
-p { line-height: inherit; }
-h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
-p { orphans: 4; }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.8rem; }
-h3 { font-size: 1.6rem; }
-h4 { font-size: 1.4rem; }
-h5 { font-size: 1.2rem; }
-h6 { font-size: 1rem; }
-.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
-.hidden { display: none; }
-.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
-a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
-sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
-#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
-figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
-figure > table { margin: 0px; }
-tr { break-inside: avoid; break-after: auto; }
-thead { display: table-header-group; }
-table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
-table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
-.CodeMirror { text-align: left; }
-.CodeMirror-placeholder { opacity: 0.3; }
-.CodeMirror pre { padding: 0px 4px; }
-.CodeMirror-lines { padding: 0px; }
-div.hr:focus { cursor: none; }
-#write pre { white-space: pre-wrap; }
-#write.fences-no-line-wrapping pre { white-space: pre; }
-#write pre.ty-contain-cm { white-space: normal; }
-.CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
-.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
-#write .md-fences.mock-cm { white-space: pre-wrap; }
-.md-fences.md-fences-with-lineno { padding-left: 0px; }
-#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
-.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
-.CodeMirror-line, twitterwidget { break-inside: avoid; }
-.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
-.footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
-li div { padding-top: 0px; }
-blockquote { margin: 1rem 0px; }
-li .mathjax-block, li p { margin: 0.5rem 0px; }
-li blockquote { margin: 1rem 0px; }
-li { margin: 0px; position: relative; }
-blockquote > :last-child { margin-bottom: 0px; }
-blockquote > :first-child, li > :first-child { margin-top: 0px; }
-.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
-#write .footnote-line { white-space: pre-wrap; }
-@media print {
-  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
-  .typora-export #write { break-after: avoid; }
-  .typora-export #write::after { height: 0px; }
-  .is-mac table { break-inside: avoid; }
-}
-.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
-a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
-p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
-#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
-p > .md-image:only-child { display: inline-block; width: 100%; }
-#write .MathJax_Display { margin: 0.8em 0px 0px; }
-.md-math-block { width: 100%; }
-.md-math-block:not(:empty)::after { display: none; }
-.MathJax_ref { fill: currentcolor; }
-[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
-.md-task-list-item { position: relative; list-style-type: none; }
-.task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
-.math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
-.md-toc-content { position: relative; margin-left: 0px; }
-.md-toc-content::after, .md-toc::after { display: none; }
-.md-toc-item { display: block; color: rgb(65, 131, 196); }
-.md-toc-item a { text-decoration: none; }
-.md-toc-inner:hover { text-decoration: underline; }
-.md-toc-inner { display: inline-block; cursor: pointer; }
-.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
-.md-toc-h2 .md-toc-inner { margin-left: 2em; }
-.md-toc-h3 .md-toc-inner { margin-left: 4em; }
-.md-toc-h4 .md-toc-inner { margin-left: 6em; }
-.md-toc-h5 .md-toc-inner { margin-left: 8em; }
-.md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) {
-  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
-  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
-  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
-  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
-}
-a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
-.footnote-line a:not(.reversefootnote) { color: inherit; }
-.md-attr { display: none; }
-.md-fn-count::after { content: "."; }
-code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
-.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
-code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
-.md-inline-math .MathJax_SVG .noError { display: none !important; }
-.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
-.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
-.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
-.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
-.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
-.MathJax_SVG * { transition: none 0s ease 0s; }
-.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
-.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
-.md-diagram-panel > svg { max-width: 100%; }
-[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
-[lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
-video { max-width: 100%; display: block; margin: 0px auto; }
-iframe { max-width: 100%; width: 100%; border: none; }
-.highlight td, .highlight tr { border: 0px; }
-mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
-.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
-mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
-@media print {
-  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
-}
-.md-diagram-panel .messageText { stroke: none !important; }
-.md-diagram-panel .start-state { fill: var(--node-fill); }
-.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
-.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+<title>一些抒情</title></head>
+<body>
+<p><strong>Julius Caesar（2018ntl）</strong>：Ben Whishaw。新型话剧融合性太棒了，也靠观众（罗马人民）们的配合。以巨大的罗马鹰旗（也许，红色中间有符）为水平幕布，在“人民“头顶横向传递，如此作为恺撒被刺情节后的过场，象征性十足，并且扩张了包括观众的舞台融合感。看到最后有点心思分散。最末，得胜的安东尼扶起布鲁图斯的尸体说，布鲁图斯是唯一的不是出于嫉妒而是为general good而参与合谋的人，我看到那里时，却全没有这么想。现在也觉得未必吧。——的确，行动的意志和行动的目的一致，是重要而往往被忽视的事情，也可以用来解释恺撒之层次及其下者，在安东尼的演说中何以拥有许多政治美谈，最终又何以可能为”恶“，但我只是觉得故事未提及的人物内心还有很多，人的心思又总是混合着的；若安东尼意图维护正义之心，那么或许他便不该说话——如刺杀恺撒后寡言的布鲁图斯那样（他对恺撒的指责太弱了，他的义使他在人民面前不、且无法去充分拥护自我行为的正当，然而在那种情况下凭借自身判断去决定何者才是属于自己的义，实在超出了普通人民的通识程度）；只不过，战争的不义太容易用失声的英雄去掩埋，而所需的英雄数目，只布鲁图斯一人足以。未来的和平帝国，因此有了一个高度融入文化、因而轻易可用的、价值观适当、又不危及自身的反叛之心的发泄出口，如此会变得更加稳定吧。可悲，用自戕来逃脱侮辱，却随意地、被以荣耀涂抹的过世者，失去了脸庞和声带的你。<strong>Et tu, Brute?</strong> (pronounced [ɛt ˈtuː ˈbruːtɛ]，a Latin phrase literally meaning &quot;and you, Brutus?&quot;or &quot;also you, Brutus?&quot;, often translated as &quot;You as well, Brutus?&quot; or &quot;Even you, Brutus?&quot;.）</p>
+<ul>
+<li><p>Brutus:
+Let&#39;s be sacrificers, but not butchers, Caius.
+. . . And, gentle friends,
+Let&#39;s kill him boldly, but not wrathfully;
+Let&#39;s carve him as a dish fit for the gods,
+Not hew him as a carcass fit for hounds;
+And let our hearts, as subtle masters do,
+Stir up their servants to an act of rage,
+And after seem to chide &#39;em.</p>
+<p><em>Julius Caesar Act 2, scene 1, 166, 171–177</em></p>
+<p><strong>乒乓-松本大洋、汤浅政明、内山昂辉</strong>：好就是好，希望内山多多主役这样的佳作。OP很绝，这次发现词也很好，联想到企鹅罐中的“きっと何者にもなれないお前たちに告げる！ 生存戦略しましょうか！”。特别喜欢里面的角色互相道爱。最后一集中间使用的日本童谣《手のひらを太陽に》，今天得知京都此前做的一个本社纪念相关的动画也是用的它，但没看视频。“ぼくらはみんな，いきている；いきているから，うたうんだ ”，想到大火，让人难受。不过，如这首歌所表达的，如京阿尼用他们细腻作品表达的，“最重要的是把对方视为人”，，如薇依言：相信别人存在便是爱，如被人所利用的陀思妥耶夫斯基那句“爱人类不爱个人”所自矜之反。可是，对我来说，爱，他人，这其中的限度和可能性，随着每日世界“真实总量”的貌似增长，又逐渐动摇起来了。所以smile（笑爷）真的很厉害啊，不断地等待，即使那个英雄坠落到可能再也不见踪影，也完全不发一言地等待着，等待着，维持着自己机器人的外壳。他是太相信呢，还是太倔强，又或只是难以开口、太过木讷？我不明白，怎会有人那么顽固地隐瞒并保持着自己心中救赎的正确形式，而坚持不去争取那些偏狭或倒错的其他形式。smile确实是需要并相信peko的，但似乎也是能够忍受peko的“不在”的，他似乎把对于神的“等待 ”领会得很深，并且天生就是那样好的小孩。正因为两人经过了漫长的、无回应的各自漂流，最后的默契一战才足以具备彼此救赎的意义啊。</p>
+</li>
+<li><p>手のひらを太陽に</p>
+<p>作詞：やなせたかし
+作曲：いずみたく</p>
+<blockquote><p>ぼくらはみんな　いきている
+いきているから　うたうんだ
+ぼくらはみんな　いきている
+いきているから　かなしいんだ
+てのひらを　たいように　すかしてみれば
+まっかにながれる　ぼくのちしお
+みみずだって　おけらだって
+あめんぼだって
+みんな　みんないきているんだ
+ともだちなんだ</p>
+</blockquote>
+</li>
 
-
-:root {
-    --side-bar-bg-color: white;
-    --window-border: none;
-    --search-select-bg-color: #575c61;
-    --active-file-bg-color: #f1f4f5;
-    --item-hover-bg-color: #f1f4f5;
-    --item-hover-text-color: black;
-    --control-text-color: #555;
-}
-
-@include-when-export url(https://raw.githubusercontent.com/slashfoo/lmweb/master/style/latinmodern-mono-light.css);
-
-html {
-    font-size: 12pt;
-}
-
-#write {
-    font-family: "Lato", "STIX2Text", "Times New Roman", "serif";
-    line-height: 1.5em;
-    padding: 10%;
-    padding-top: 5%;
-}
-
-.file-list-item-summary {
-    height: 36px;
-}
-
-.file-list-item {
-    padding-top: 18px !important;
-    padding-bottom: 18px;
-}
-
-#sidebar-loading-template.file-list-item {
-    padding-top: 0 !important;
-}
-
-a, a:visited {
-    color: #a00;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: inherit;
-    line-height: 1em;
-}
-
-h1  {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.6em;
-}
-
-h3 {
-    font-size: 1.4em;
-}
-
-h4 {
-    font-size: 1.2em;
-}
-
-h5  {
-    font-size: 1.1em;
-}
-
-h6 {
-    font-size: 1em;
-}
-
-p {
-    margin-top: .5em;
-    margin-bottom: 0;
-    text-align: left;
-    line-height: normal;
-}
-
-pre, code {
-    font-family: 'Latin Modern Mono Light', "Latin Modern Mono", monospace !important;
-}
-
-.footnotes {
-    display: list-item;
-    margin-left: 1em;
-}
-
-.md-fences {
-    border: 1px solid;
-}
-
-.md-fences.md-fences-with-lineno {
-    border: 1px solid #a2a9b1;
-    box-shadow: 1px 1px 1px #ccc;
-    background-color: #f8f7e9;
-}
-
-.CodeMirror-linenumber {
-    color: #333;
-}
-
-*.in-text-selection,
-::selection,
-.CodeMirror-selected {
-    background: var(--search-select-bg-color);
-    color: var(--search-select-text-color) !important;
-    text-shadow: none;
-}
-
-a.md-toc-inner {
-    color: var(--text-color);
-}
-
-.cm-s-typora-default .cm-link {
-    color: #a00;
-    text-decoration: underline;
-}
-
-.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property {
-    color: black;
-}
-
-#typora-source .CodeMirror-lines {
-    -webkit-font-smoothing: auto;
-    max-width: 1000px;
-}
-
-.md-def-name:before,
-.md-def-name:after {
-    color: #2d2d2d;
-}
-
-sup.md-footnote {
-    background-color: initial;
-    color: inherit;
-}
-
-mark {
-    background: #fff387;
-}
-
-td, th {
-    border: 1px solid;
-    padding-left: 1ch;
-    padding-right: 1ch;
-}
-
-th {
-    border-bottom: 0;
-    padding-top: 2px;
-    background: #575c61;
-    border-color: #333;
-    color: #f3f3f3;
-}
-
-pre.md-meta-block {
-    border: 1px solid #a2a9b1;
-    background-color: #f8f9fa;
-    padding: 5px;
-    margin-bottom: 1em;
-}
-
-.md-task-list-item>input {
-    margin-left: -1.3em;
-    margin-top: 0.28em;
-}
-
-.md-task-list-item.task-list-done > p {
-    color: #aaaaaa;
-}
-
-blockquote {
-	border: 1px solid #a2a9b1;
-	border-radius: 4px;
-	box-shadow: 1px 1px 1px #ccc;
-    background-color: #f3f3f3;
-    padding: 5px;
-    margin: 0.75em;
-    position: relative;
-    left: 0px;
-}
-
-blockquote li::after {
-    position: initial;
-}
-
-#write > blockquote {
-    padding: 5px 30px 5px 10px;
-	margin-left: -10px;
-    width: calc(100% + 20px);
-}
-
-#write >  .md-fences-with-lineno {
-    margin-left: -33px;
-    color: black;
-}
-
-.CodeMirror-linenumber {
-    min-width: 25px;
-}
-
-.md-header {
-    font-size: inherit !important;
-}
-
-li {
-    margin: 0;
-}
-
-ol, ul {
-    padding-left: 30px;
-}
-
-ol ol li > * {
-    font-weight: normal;
-}
-
-ol ol ol li > * {
-    font-weight: normal;
-}
-
-ol {
-    list-style-type: decimal;
-}
-
-ol ol {
-    list-style-type: upper-alpha;
-}
-
-ol ol ol {
-    list-style-type: lower-roman;
-}
-
-ol ol ol ol {
-    list-style-type: decimal;
-}
-
-ol ol ol ol ol {
-    list-style-type: lower-alpha;
-}
-
-ol ol ol ol ol ol {
-    list-style-type: lower-roman;
-}
-
-ol ol ol ol ol ol ol {
-    list-style-type: decimal;
-}
-
-/* li blockquote {
-    margin-left: -34px;
-    width: calc(100% + 44px);
-}
-
-li li blockquote {
-    margin-left: -59px;
-    width: calc(100% + 69px);
-}
-
-li li li blockquote {
-    margin-left: -84px;
-    width: calc(100% + 94px);
-}
-
-li li li li blockquote {
-    margin-left: -109px;
-    width: calc(100% + 119px);
-}
-
-li li li li li blockquote {
-    margin-left: -134px;
-    width: calc(100% + 144px);
-}
-
-li li li li li li blockquote {
-    margin-left: -159px;
-    width: calc(100% + 169px);
-}
-
-li li li li li li li blockquote {
-    margin-left: -184px;
-    width: calc(100% + 194px);
-} */
-
- :root {--mermaid-font-zoom:1.5em ;} 
-</style>
-</head>
-<body class='typora-export os-windows'>
-<div id='write'  class=''><p><strong><span>Julius Caesar（2018ntl）</span></strong><span>：Ben Whishaw。新型话剧融合性太棒了，也靠观众（罗马人民）们的配合。以巨大的罗马鹰旗（也许，红色中间有符）为水平幕布，在“人民“头顶横向传递，如此作为恺撒被刺情节后的过场，象征性十足，并且扩张了包括观众的舞台融合感。看到最后有点心思分散。最末，得胜的安东尼扶起布鲁图斯的尸体说，布鲁图斯是唯一的不是出于嫉妒而是为general good而参与合谋的人，我看到那里时，却全没有这么想。现在也觉得未必吧。——的确，行动的意志和行动的目的一致，是重要而往往被忽视的事情，也可以用来解释恺撒之层次及其下者，在安东尼的演说中何以拥有许多政治美谈，最终又何以可能为”恶“，但我只是觉得故事未提及的人物内心还有很多，人的心思又总是混合着的；若安东尼意图维护正义之心，那么或许他便不该说话——如刺杀恺撒后寡言的布鲁图斯那样（他对恺撒的指责太弱了，他的义使他在人民面前不、且无法去充分拥护自我行为的正当，然而在那种情况下凭借自身判断去决定何者才是属于自己的义，实在超出了普通人民的通识程度）；只不过，战争的不义太容易用失声的英雄去掩埋，而所需的英雄数目，只布鲁图斯一人足以。未来的和平帝国，因此有了一个高度融入文化、因而轻易可用的、价值观适当、又不危及自身的反叛之心的发泄出口，如此会变得更加稳定吧。可悲，用自戕来逃脱侮辱，却随意地、被以荣耀涂抹的过世者，失去了脸庞和声带的你。</span><strong><span>Et tu, Brute?</span></strong><span> (pronounced [ɛt ˈtuː ˈbruːtɛ]，a Latin phrase literally meaning &quot;and you, Brutus?&quot;or &quot;also you, Brutus?&quot;, often translated as &quot;You as well, Brutus?&quot; or &quot;Even you, Brutus?&quot;.）</span></p><ul><li><p><span>Brutus:</span>
-<span>Let&#39;s be sacrificers, but not butchers, Caius.</span>
-<span>. . . And, gentle friends,</span>
-<span>Let&#39;s kill him boldly, but not wrathfully;</span>
-<span>Let&#39;s carve him as a dish fit for the gods,</span>
-<span>Not hew him as a carcass fit for hounds;</span>
-<span>And let our hearts, as subtle masters do,</span>
-<span>Stir up their servants to an act of rage,</span>
-<span>And after seem to chide &#39;em.</span></p><p><em><span>Julius Caesar Act 2, scene 1, 166, 171–177</span></em></p><p><strong><span>乒乓-松本大洋、汤浅政明、内山昂辉</span></strong><span>：好就是好，希望内山多多主役这样的佳作。OP很绝，这次发现词也很好，联想到企鹅罐中的“きっと何者にもなれないお前たちに告げる！ 生存戦略しましょうか！”。特别喜欢里面的角色互相道爱。最后一集中间使用的日本童谣《手のひらを太陽に》，今天得知京都此前做的一个本社纪念相关的动画也是用的它，但没看视频。“ぼくらはみんな，いきている；いきているから，うたうんだ ”，想到大火，让人难受。不过，如这首歌所表达的，如京阿尼用他们细腻作品表达的，“最重要的是把对方视为人”，，如薇依言：相信别人存在便是爱，如被人所利用的陀思妥耶夫斯基那句“爱人类不爱个人”所自矜之反。可是，对我来说，爱，他人，这其中的限度和可能性，随着每日世界“真实总量”的貌似增长，又逐渐动摇起来了。所以smile（笑爷）真的很厉害啊，不断地等待，即使那个英雄坠落到可能再也不见踪影，也完全不发一言地等待着，等待着，维持着自己机器人的外壳。他是太相信呢，还是太倔强，又或只是难以开口、太过木讷？我不明白，怎会有人那么顽固地隐瞒并保持着自己心中救赎的正确形式，而坚持不去争取那些偏狭或倒错的其他形式。smile确实是需要并相信peko的，但似乎也是能够忍受peko的“不在”的，他似乎把对于神的“等待 ”领会得很深，并且天生就是那样好的小孩。正因为两人经过了漫长的、无回应的各自漂流，最后的默契一战才足以具备彼此救赎的意义啊。</span></p></li><li><p><span>手のひらを太陽に</span></p><p><span>作詞：やなせたかし</span>
-<span>作曲：いずみたく</span></p><blockquote><p><span>ぼくらはみんな　いきている</span>
-<span>いきているから　うたうんだ</span>
-<span>ぼくらはみんな　いきている</span>
-<span>いきているから　かなしいんだ</span>
-<span>てのひらを　たいように　すかしてみれば</span>
-<span>まっかにながれる　ぼくのちしお</span>
-<span>みみずだって　おけらだって</span>
-<span>あめんぼだって</span>
-<span>みんな　みんないきているんだ</span>
-<span>ともだちなんだ</span></p></blockquote></li></ul><p><strong><span>《宝石之国》第80话~月面之景翻译</span></strong><span>：太刺激了。反正《宝石之国》又不是那种只能通过强行无视虚无来激发热血的虚无王道作品。比如拯救辰砂这件事，正因为法斯忘记了而我们读者还记得，这种一直卡在心口的唏嘘难受的感觉真的很不一般啊。幼年豪言逐渐失落，在人间其实很正常的，只不过漫画不太敢这么搞。终于明白极乐净土宝石铺地在这部作品中的含义：月人将大家磨成粉铺在月球上来刺激和报复金刚；被合成新人类但却被同伴肢解两百年最后部分拼合的、面目全非的磷叶石，用恨意打破了金刚因为眷恋宝石人并为铊们创造的乐园而无法启动祈祷的情况，骨肉魂将一同归于虚无，宝石人将作为无法凭借自我圆满而归于虚无的月人们强行获得虚无的祭品。</span></p><p><strong><span>爸爸去哪儿第二季</span></strong><span>：跟妈。 妈一起重看。我很喜欢贝儿。记录一个：第一次出外活动，joe闹别扭，回程车上，贝儿坐在joe旁边，指着joe手里的锯子玩具说，你用这个来砍我的手呀，joe被逗乐，就砍，贝儿啊啊啊啊怪叫，然后手臂一甩，把被砍下的手（伪）一扔，说“给你吃吧”。哈。</span></p><p><strong><span>JOJO-SBR</span></strong><span>：杰诺很美，但放在这样的故事里简直受辱。记录第五卷的一个想法，P7/112:不能理解这里杰洛家的逻辑，觉得过于夸张，为什么不高明的死刑增加受刑人的痛苦因而践踏其尊严从而损害国家和法律？但是反过来想，受刑人如果有真诚的尊严，那便是蔑视国家和法律以及处死自己的虚伪正义（虽然没有跟梵蒂冈联系起来），那么这种自以为高尚的无痛死刑就是对他们“最愉快的讽刺”吧。此外，杰洛父亲这样高级匠人心态的刽子手，作为统治权力的一大象征，感觉与Modernity and the Holocaust的话题联系上了。紧接着设置与反叛密谋的碰撞也很合适。</span>
-<strong><span>I Claudius</span></strong><span>：编剧和对白精彩。看了没多久就开始不喜欢祖母Lilia了。最怀念Druses，记得他的美丽、健壮、知天命、温和明澈、于世事压制下对共和的低调的无谓坚守，作为妻与弟的生命之光、可哭可笑的那场逝世前刚刚出生的claudius的未来理念指引，这唯一的一丝正直的阴影，并没为这些生者导出光明和幸福的方向，只留下道德僵硬、保守无为的妻子，凶狠怪僻又冷漠且暴食的弟弟，活得如小丑般高超且独特的末子，作为其人生高潮的，是在高喊着自己支持共和的同时被推上帝位无法逃脱的滑稽悲哀的一幕。卡里古拉带来的启示是，疯狂只是一种奢侈品，并因此只是种廉价的东西。</span></p><p><strong><span>《历史之眼》岩明均：</span></strong><span>第七话精彩，梦中的残忍凝视、温柔的微笑和破碎的尸体，和卧床上的眼泪。这是把人的勇敢、智慧、残酷、狡黠混合的作品。特别有趣的是，《i claudius》开篇是主人公皇帝claudius决定为自己的家族和自己的一生写一部关于truth的传记，并且得到预言称自己的传记将在1900年后被人发现，属于通常被别人作传者为自己作传的故事；而《历史之眼》的开篇，作者说这个故事的主人公尤米尼斯是一位历史上重要的马其顿书记官，却在马其顿官方记录中意外地缺少记载，所以是为别人作传者被别人作传的故事。当然，最外侧的作者-读者关系是不变的。读到现有的107章，逐渐崩坏、失趣以及拖更（岩明均也年逾六十了。）1-7卷都不错，2-3卷的两个西徐亚故事值得反复反复看，婴儿的心在知识的表层漫游，在暴力杀戮和守护牺牲的深层记忆里生长。觉得其余的章节过于夸大超越常人的智能，反而露出了单调理性的丑陋面孔，重现历史容易被自带的宏大感包裹，在2-3卷的那两个西徐亚故事中，这种过剩是最少的。</span></p><p><strong><span>《巴虺的牧群》</span></strong><span>：中文</span><em><span>克苏鲁</span></em><span>，半夜里看的，一个类似更复杂分化的《The Time Machine》（1895）的设想，趣味在于作品中的“我”与我追寻的那个失踪朋友对于这个理想国的截然不同的态度：逃避与奔向。</span></p><p><strong><span>星屑與妮娜（星屑ニーナ）福島聡</span></strong><span>：四卷本完，太太太好看了。但读到一个异议的评论也很喜欢。让我想到，有神才有了末卷的奇迹，而奇迹的代价，是一定程度上的被掌控，如果从渴望圆满而至渴望被掌控，那就失去自由的心态了。不要忘记太平和蝎子啊！这也是皮皮能得到神的帮助原因之一吧——在她决定破釜沉舟的时候竟然把那时空回溯的宝物给随手抛弃了。崇爱神明真是危险的事情呢。或者说，其实故事里的人们才是神——自由、全力、纯净，选择了无悔的神们…在看看终章的老爷爷，枯燥地自报家门，枯燥地承认干了蠢事而道歉，还把岛上的飞行器弄成飞猪搞走了，这样的神也太惨淡了。另外摘抄福岛简介文：“……很大篇幅都是在說分鏡繪製的問題，而在開篇的地方談到了一些風格變化的原因，大體上是因為前作</span><strong><span>機動旅團八福神</span></strong><span>的風格過於硬派，福島的神秘人的新作企劃被否決，然後想起了</span><strong><span>鳥山明的阿拉蕾</span></strong><span>，於是有了這個太陽和月亮都會說話，主角是機器男孩的作品。”</span></p><p><strong><span>开罗游戏·王都创世物语</span></strong><span>：这作不同于以前玩过的大江户、游戏公司和口袋学院物语，联网好友系统十分重要，但丰富度也很高，只是凑钻石抽了十来次没抽到S级角色有点不开心。但我其实最喜欢的不是一开始抽中而帮助很大的A级奶农以及后来的A级骑士，而是一个随机自定义姓名的B级的女骑士，肥前真美子，虽然只是小小数个像素点，但是银粉色的盔甲好帅气呢！左奔又跑，一会儿挖草一会儿打架，也有时是冲去帮路过的人打，或者是救人去的，夜里在附近找地搭起帐篷呼呼而睡，白天也会搬运挖到的矿石和战胜怪兽得到的宝箱，当然也有时在城中回复心力，在无派遣的满血时候，念叨着“做什么呢”而四处闲逛。另外，每个区域的首领怪物都长不一样，在讨伐者们前要说一句义正辞严意思各异的狂妄话。像素的世界真的很可爱。哦，不过我这三天玩得太过头了，占有率接近12h了，先把本公主掌有并命名的“自由城”景象和居民一览表截屏下来留作纪念，当前删除APP冷却手机再说，如果一周内还想打开游戏的话，请重新下载填写数据代码“hy6p5h”。</span></p><p><strong><span>Roma</span></strong><span>，Alfonso Cuarón 导演编剧剪辑：Amor 爱，西语。2020.7.11 内山去年的电影排行中和marriage story 并列第一的电影，刚在B站上线。片头好：地面、积水、天空、流水、光影摇曳、刷洗声、浮沫合于一个长长的镜头。黑白。（脑中对电影的疑问：is this real？）男孩躺下：我死了，所以我不能说话。女仆躺下，两人头互相顶着：我也死了。我觉得这感觉还不错。（音乐不错。）父亲回来，豪华汽车入库碾到狗屎。拍摄女仆关掉房内大小灯具的行动路线，镜头旋转360°。日常中不断的清洗：地面、餐具、衣服、杯子……给自己倒了杯水。许多双层意义。电影中的电影，是《虎口脱险》，《蓝烟火》。地震？？大火。那个瑜伽动作，有趣的是伴随闭眼，全场跟随做动作的人里，似乎只有女仆做到了，但是场上无人见证她出色的平衡，甚至她自己也不知道。内山去年电影排行中和marriage story并列第一的电影。虽然我觉得他的电影品味蛮令人无语，但能明白roma合他品味的原因，这个人大概是会被这种每个情节画面都经过用心安排和构造的舒适感、丰富度折服的。有意思的画面太多了，也顺带查了故事后半的学生抗议、警察当街屠杀的事件，感觉和《颐和园》有点相似，且都是私人与时代两线交织。女仆（我应该用她名字！）长黑发美，也许是导演回忆的效应，她显得几乎圣洁。那个瑜伽动作，有趣的是，要伴随闭眼。全场跟着做动作的人里，似乎只有女仆做到了平稳不倒，但是场上无人见证她出色的平衡，甚至她自己也安安稳稳、没意识到。（有趣的是，虽然故事非常私人，镜头与人物之间却一直很有距离感，看了好久才明白她的脸，而她的特写好像只有那个重要丧失后，静止的、肖像式的时刻…尽管她几乎一直在画面里。也许是因为导演玩弄光影和物件的兴趣太强了。）那个负心男友也挺真实的，做了奥运安保，本来是自己一身功夫终于能有所归属，感觉到了自我价值，但不幸奥运安保成了政府维持稳定、打压学生工人的抗争的武器，其本人的个性也渐渐发狂，丑陋，依赖暴力威胁逃避问题，最后变成那天下午的屠杀者。最后的海真是治愈。结束又开始，用内山的话来说，就是：生活还要继续。噢，佩佩是天使少年。</span></p><p><strong><span>一级恐惧</span></strong><span>，1997，爱德华诺顿</span>
-<span>演技好到让人觉得色情。那些眼神！！可口。片外个性好难缠，喜欢。诺顿在花絮里说，自己第一次拿到的剧本和最终剧本远不一样，包括角色的结巴设定，最后的即兴发挥，都是诺顿自己的想法，他说，相信一部电影会是许多机关不断运作形成的最终模样。这种真正的制作出好电影的体验、因初出茅庐的惊艳实力而得到的尊重和宽容，却也是他在这个出道奥斯卡提名作后，经常为了让作品有更好呈现而干涉、得罪众多的根源之一吧——为什么爱德华诺顿片约少。但我喜欢他。这样一种人生，值得，但更好的可能性，也更值得。</span></p><p><strong><span>玫瑰之名</span></strong><span>，1986，Jean-Jacques Annaud，Sean Connery，130min：崇敬但并不十分向往原作那种高级解密，电影的粗俗和画面而非文字呈现的真切感对我的智力和心力来说刚刚好。其实，最盛大的价值，还属这两个半小时内种种可怜可怖的人物，而非我们智慧绝伦的导师，但我们不得不感激他，供出他理性的双眼，就像把迷宫中的毛线拖在身后、一边高声朗读一边不断左转的修士徒弟那样，我们的心灵有幸被引领着在这中世纪（或与之俨然相接的我们的现当代）灰黑修道院的一场场屠戮、惊悚和可笑的上帝之争夺中穿梭而过并安然存活，艾柯是否期待人们去阅读原书——以片末追随着导师那理性和思索的人格而放弃所爱哑女的少年人那样的形式？一边是信徒畏惧于笑对权威的威胁，想烧毁亚里士多德对喜剧的评说；一边是四场火，启示录式的接连暴死，穷人小屋里的鸡飞狗跳，永远为一切付出代价的贫民众人，火架上丑人的哼歌，在这两者之间，理性降临了，探明了，留下了证明，带走了珍册，离开的时候，仍旧难以为任何人做到任何事。玫瑰之名，插肩而过的爱，异化的虚伪宗教，无法查验的传说之书，从理性与知识到正义与真相的距离……（所谓诠释，是否实则就是取自己所需？）</span>
-<span>昔日玫瑰以其名芳，今人所持唯玫瑰之名。</span>
-<span>豆瓣的</span><a href='https://www.douban.com/review/3062031'><span>小说书评</span></a><span>，</span><a href='https://www.douban.com/review/1009950'><span>第二篇</span></a><span>，</span><a href='https://www.douban.com/book/1783098'><span>…</span></a><span>。（有此心思我还是更想读《红楼梦》。）</span>
-<span>关于建筑和布景 [摘]：&quot;为寻找中世纪风格的修道院，阿诺花三年时间足迹遍及意大利、西班牙、英国和联邦德国300多座修道院，最后才选定法兰克福附近的建于12世纪的埃伯巴哈修道院。阿诺在罗马郊外的一座山上搭建影片拍摄所需的修道院外景建筑，并在罗马一制片厂搭建影片中最重要最神秘的迷宫塔楼藏书室。影片中所有道具，从缮写室里的读经台、沉重的枝状大烛台到烫金古书一一是手工特制。&quot;</span></p><p><span>史恩康纳莱饰演的方济会威廉以</span><a href='https://en.m.wikipedia.org/wiki/William_of_Ockham'><span>William of Occam</span></a><span>为原形，提出「如非必要，勿增实体」的奥坎剃刀原则(Occam&#39;s Razor, Ockham&#39;s Razor)。</span></p><p><span>片中威廉：「要警惕预言家和那些准备为真理而献身的人，因为他们通常会拉上眾多的人与他们同归於尽，经常是先与他们，有时则是替他们去死。」</span></p><p><span>道明会修士著黑袍，方济各会修士著灰袍。</span></p><p><span>Monasterium sine libris est sicut civitas sine opibus. 没有藏书的修道院就好比是没有权力的国家。</span></p><p><span>Exivi de paradiso. 驱出乐园。</span></p><p><a href='https://open.spotify.com/episode/6Nc3QdruanhOFiZdGXxh8g?si=bX-hWNbLT2eCjaJt2GkVUg'><strong><span>时差#01 中国语境下的种族话语和种族主义（上） 时差 in-betweenness</span></strong></a><span>：粗線條觀點似乎是，人類學以人類為客體，人文學以人類為主體。前者在前兩三個世紀大大促成了人種學到優生學到種族歧視與種族迫害的發生。林奈：分類和命名的行為中包含的人類自負的權力。我想到：那神「說」要有光，才有光啊。類似某些故事裡，一旦被他人知道名字，就會失去自己天賦的超能力。二元化思維的惡果。但語言本身就可以是一種二元化，詞語把事物固定。從存在到區分到差別。</span>
-<span>優生學真是難以面對的難題啊：法農對黑格爾的一項批判。黑：若勞動由奴隸生產，則奴隸是歷史的主體、動力，當奴隸意識到這一點，就會給奴隸主帶來被替代的焦慮。法農：否定。因為奴隸不被認為是人類。「半人」。</span></p><p><strong><span>罗翔</span></strong><span>：首次直播：提到书籍：1.以赛亚 柏林《刺猬与狐狸》：这是以赛亚柏林在20世纪五十年代一篇著名论文。比较难找到他的中文译文。2.以赛亚 柏林《自由及其背叛：人类自由的六个敌人》3.柏拉图《申辩篇》。关于流氓罪和“口袋罪”：此篇普法普史，是否暗中受到清华法学许教授被嫖娼事件的启发？</span></p><p><strong><a href='https://www.bilibili.com/video/BV1ts41167Cd?'><span>20100217•HT N.Y.の中心で、鍋をつつく~</span></a></strong>
-<span>19岁的三浦春马和20岁的佐藤健。无法用语言解释的无限美好，可爱灵动的两人。让我在想，好的伙伴不仅给予尝试的勇气、幸福的陪伴，甚至可以使人更加聪慧、善良。向表演教授接受指教还有临场表演那段实在尴尬到让人捂脸，但是转眼间，尼亚加拉大瀑布下面那段自发的即兴对戏，又充满少年淘气和意气，证明着两人敞开心灵的默契情谊。最后的十分钟幻灯片也是十足的珍宝。虽然镜头对真实和自然总是具有侵略性和的，但制作组对如何引导两人彼此个性和美好特点，做出了最好的拿捏，有张有弛的行程安排之外，有主摄影机外的给予的两人互相拍摄用的相机和摄影机、行车途中的几个奇妙小问答、做饭部分的无摄影师的固定机位。让我想到自己看过的佐仓和大西投石台广播在伊豆伊东、冲绳、北海道三次旅行特典，虽然也有很多亮点，但制作组水准和最终呈现的自然度还比不上约十年前的这一部。总之，非常喜欢，一对少年亲友的完美旅行纪录。</span></p><p><strong><a href='http://b23.tv/0R7RmU'><span>老人们的处女作</span></a></strong><span>：选择自画像，可能是这位老人自爱、自信的缘故吧，很惊人，因为我了解的身边老人，依附于日常劳作或沉默度日的人居多，个别爱表达的则固执傲慢，很少会像这位奶奶这样表现出这样好的自我意识，很温和优雅。另外，感觉视频里的画材，不容易在第一次尝试时就得到基本的理解利用，有几个视频里好像笔太细太柴，只能画线，有的笔又太粗，都是大块铺张，感觉很受局限，有点可惜。个人感觉，有些老人更适合用毛笔加水彩吧，尽管现在这种更加鲜明，适合用于展览。另外很想知道这种一般会给予哪些材料和引导，怎么把控初次作画时的指导需求和自由度需求的平衡，还有是如何与这些老人相遇并且说服他们进行作画、采访和拍摄。总之，想法很好，太不完美。</span></p><p><strong><a href='https://www.douban.com/note/772652969/'><span>她比菲利普·迪克更早设想纳粹的胜利</span></a></strong><span>：介绍女作家Katharine Burdekin在1937年出版的小说Swastika Night ，描述希特勒取胜七世纪后的德国。感兴趣。她对纳粹社会的描写和想象，与后人想象中充满非现实感的极端性不同，能够精妙地与通常人们熟悉的社会中的父权意识、宗教或道德控制完好接轨。但是我想问，是不是也只有欧洲人，能延续基督教倒塌之后的老框架，在地上维持邪恶秩序七世纪而不致彻底礼崩乐坏。一种能够返身退入中世纪的肌肉记忆？换做别地，没什么记忆，儒道佛什么的，本来就很弱，如今也无法再构造秩序，只有土匪和农民，不用百年就能造出混沌地狱来了。（所谓洼地，“历史积累”为0。所以对我们来说，更加新奇的未来，是会有的吗？不关心洪水（不可欢呼）。但洪水后的留下的，是有希望的土壤吗？像台湾、香港、日本、越南、泰国那样，如果有机会的话，或许能够比负重累累的西方人更“现代”？明治维新成功后再经历几百年后的我们也是。）【还是不要无根据地假想和诠释太多……】</span></p><p><strong><a href='https://comic.pixiv.net/works/4203'><span>トルソの僕ら</span></a></strong><span> 墨佳 遼：</span><a href='https://ruah0404.tumblr.com/post/625209037261357056/%E3%83%88%E3%83%AB%E3%82%BD%E3%81%AE%E5%83%95%E3%82%89-pixiv%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF'><span>第一话</span></a><span> 太美好了 毛茸茸的爱 又细腻又剧烈又坚实 对人类来说 确实太不可思议了 好想抱住ナプタム 好想被抱在毛茸茸的爱的怀中 </span><a href='https://twitter.com/cart2017/status/924931382660415488?s=09'><span>啊啊啊</span></a><span> 第二話 海的故事，出於一種珍愛？沒有問來歷。拒絕了少女而努力融入漁夫大叔們，很有墨師態度。 第三話 人造人。大家全力去做、去付出的，只是不屬於自己目標的連年戰鬥，只是人類回歸（重新殖民）地球的暴力清掃環節，像這樣活著一定是痛苦又寂寞的事。但時子卻要在這悲慘的環節中不斷創造生命、敢於承認生命存在且不是奴隸、付出感情與關注，如此見證生生死死，並被那麼多人稱為&quot;母親&quot;，這一定需要非常穩重又深厚的愛。這光明實在太大了。人物設計和動作都無比美麗了而無任何過度。藝術品。第四话，假人外，一路美好最后呈现猎奇，比其他篇章短一半。墨老师也许不太欣赏这种柔弱美？第五话，简直美到杀人。啊啊啊啊啊啊啊啊啊。渡边，唐那，尼刻。墨老师我爱你我爱你！你是地球上最美好的存在。</span></p><p><a href='https://www.bilibili.com/bangumi/play/ss34094?theme=movie'><strong><span>闪灵</span></strong></a><span>：143min 库布里克。对恐怖片不太感兴趣，在我看来，一方面是电影艺术典范（但封神重点还是演员演技），另一方面是展示了一个妻子，她乖乖承担家事，爱护孩子，闲时学习无线电和电气技术，鼓励丈夫的写作工作，打扰丈夫后被巨发脾气约法三章也忍耐承受，甚至愿意跑大远给睡到中午的丈夫送上全套早饭，然而当其丈夫是一个能力和心态都很差劲的Loser时，这个女人的命运依然可以变得多么恐怖无助。其他观点收集：蓬车西进拓荒和占地屠杀印第安人。蓬车时代(covered wagon times)的殖民组织Donner Party被困山中互杀吃人的事件。最后照片的日期是July 4th, 男主前世今生永远留在酒店中。Jack：“white man&#39;s burden……“；““Here&#39;s to 5 miserable months on the wagon...”, on the wagon: 戒酒, 完整说法是 &quot;on the water wagon&quot; 意为上了水车，是禁酒令时期流行的一句话，意为宁愿上水车喝水，也不喝酒。”237?? All work and no play makes Jack a dull boy. REDRUM： 红酒，血海，谋杀。黑人厨师热心进入深山酒店来看情况被白男一击毙命，不过车被那母子用去逃生，不说可能象征什么，就是好为他难过。</span></p><p>&nbsp;</p></div>
+</ul>
+<p><strong>《宝石之国》第80话~月面之景翻译</strong>：太刺激了。反正《宝石之国》又不是那种只能通过强行无视虚无来激发热血的虚无王道作品。比如拯救辰砂这件事，正因为法斯忘记了而我们读者还记得，这种一直卡在心口的唏嘘难受的感觉真的很不一般啊。幼年豪言逐渐失落，在人间其实很正常的，只不过漫画不太敢这么搞。终于明白极乐净土宝石铺地在这部作品中的含义：月人将大家磨成粉铺在月球上来刺激和报复金刚；被合成新人类但却被同伴肢解两百年最后部分拼合的、面目全非的磷叶石，用恨意打破了金刚因为眷恋宝石人并为铊们创造的乐园而无法启动祈祷的情况，骨肉魂将一同归于虚无，宝石人将作为无法凭借自我圆满而归于虚无的月人们强行获得虚无的祭品。</p>
+<p><strong>爸爸去哪儿第二季</strong>：跟妈。 妈一起重看。我很喜欢贝儿。记录一个：第一次出外活动，joe闹别扭，回程车上，贝儿坐在joe旁边，指着joe手里的锯子玩具说，你用这个来砍我的手呀，joe被逗乐，就砍，贝儿啊啊啊啊怪叫，然后手臂一甩，把被砍下的手（伪）一扔，说“给你吃吧”。哈。</p>
+<p><strong>JOJO-SBR</strong>：杰诺很美，但放在这样的故事里简直受辱。记录第五卷的一个想法，P7/112:不能理解这里杰洛家的逻辑，觉得过于夸张，为什么不高明的死刑增加受刑人的痛苦因而践踏其尊严从而损害国家和法律？但是反过来想，受刑人如果有真诚的尊严，那便是蔑视国家和法律以及处死自己的虚伪正义（虽然没有跟梵蒂冈联系起来），那么这种自以为高尚的无痛死刑就是对他们“最愉快的讽刺”吧。此外，杰洛父亲这样高级匠人心态的刽子手，作为统治权力的一大象征，感觉与Modernity and the Holocaust的话题联系上了。紧接着设置与反叛密谋的碰撞也很合适。
+<strong>I Claudius</strong>：编剧和对白精彩。看了没多久就开始不喜欢祖母Lilia了。最怀念Druses，记得他的美丽、健壮、知天命、温和明澈、于世事压制下对共和的低调的无谓坚守，作为妻与弟的生命之光、可哭可笑的那场逝世前刚刚出生的claudius的未来理念指引，这唯一的一丝正直的阴影，并没为这些生者导出光明和幸福的方向，只留下道德僵硬、保守无为的妻子，凶狠怪僻又冷漠且暴食的弟弟，活得如小丑般高超且独特的末子，作为其人生高潮的，是在高喊着自己支持共和的同时被推上帝位无法逃脱的滑稽悲哀的一幕。卡里古拉带来的启示是，疯狂只是一种奢侈品，并因此只是种廉价的东西。</p>
+<p><strong>《历史之眼》岩明均：</strong>第七话精彩，梦中的残忍凝视、温柔的微笑和破碎的尸体，和卧床上的眼泪。这是把人的勇敢、智慧、残酷、狡黠混合的作品。特别有趣的是，《i claudius》开篇是主人公皇帝claudius决定为自己的家族和自己的一生写一部关于truth的传记，并且得到预言称自己的传记将在1900年后被人发现，属于通常被别人作传者为自己作传的故事；而《历史之眼》的开篇，作者说这个故事的主人公尤米尼斯是一位历史上重要的马其顿书记官，却在马其顿官方记录中意外地缺少记载，所以是为别人作传者被别人作传的故事。当然，最外侧的作者-读者关系是不变的。读到现有的107章，逐渐崩坏、失趣以及拖更（岩明均也年逾六十了。）1-7卷都不错，2-3卷的两个西徐亚故事值得反复反复看，婴儿的心在知识的表层漫游，在暴力杀戮和守护牺牲的深层记忆里生长。觉得其余的章节过于夸大超越常人的智能，反而露出了单调理性的丑陋面孔，重现历史容易被自带的宏大感包裹，在2-3卷的那两个西徐亚故事中，这种过剩是最少的。</p>
+<p><strong>《巴虺的牧群》</strong>：中文<em>克苏鲁</em>，半夜里看的，一个类似更复杂分化的《The Time Machine》（1895）的设想，趣味在于作品中的“我”与我追寻的那个失踪朋友对于这个理想国的截然不同的态度：逃避与奔向。</p>
+<p><strong>星屑與妮娜（星屑ニーナ）福島聡</strong>：四卷本完，太太太好看了。但读到一个异议的评论也很喜欢。让我想到，有神才有了末卷的奇迹，而奇迹的代价，是一定程度上的被掌控，如果从渴望圆满而至渴望被掌控，那就失去自由的心态了。不要忘记太平和蝎子啊！这也是皮皮能得到神的帮助原因之一吧——在她决定破釜沉舟的时候竟然把那时空回溯的宝物给随手抛弃了。崇爱神明真是危险的事情呢。或者说，其实故事里的人们才是神——自由、全力、纯净，选择了无悔的神们…在看看终章的老爷爷，枯燥地自报家门，枯燥地承认干了蠢事而道歉，还把岛上的飞行器弄成飞猪搞走了，这样的神也太惨淡了。另外摘抄福岛简介文：“……很大篇幅都是在說分鏡繪製的問題，而在開篇的地方談到了一些風格變化的原因，大體上是因為前作<strong>機動旅團八福神</strong>的風格過於硬派，福島的神秘人的新作企劃被否決，然後想起了<strong>鳥山明的阿拉蕾</strong>，於是有了這個太陽和月亮都會說話，主角是機器男孩的作品。”</p>
+<p><strong>开罗游戏·王都创世物语</strong>：这作不同于以前玩过的大江户、游戏公司和口袋学院物语，联网好友系统十分重要，但丰富度也很高，只是凑钻石抽了十来次没抽到S级角色有点不开心。但我其实最喜欢的不是一开始抽中而帮助很大的A级奶农以及后来的A级骑士，而是一个随机自定义姓名的B级的女骑士，肥前真美子，虽然只是小小数个像素点，但是银粉色的盔甲好帅气呢！左奔又跑，一会儿挖草一会儿打架，也有时是冲去帮路过的人打，或者是救人去的，夜里在附近找地搭起帐篷呼呼而睡，白天也会搬运挖到的矿石和战胜怪兽得到的宝箱，当然也有时在城中回复心力，在无派遣的满血时候，念叨着“做什么呢”而四处闲逛。另外，每个区域的首领怪物都长不一样，在讨伐者们前要说一句义正辞严意思各异的狂妄话。像素的世界真的很可爱。哦，不过我这三天玩得太过头了，占有率接近12h了，先把本公主掌有并命名的“自由城”景象和居民一览表截屏下来留作纪念，当前删除APP冷却手机再说，如果一周内还想打开游戏的话，请重新下载填写数据代码“hy6p5h”。</p>
+<p><strong>Roma</strong>，Alfonso Cuarón 导演编剧剪辑：Amor 爱，西语。2020.7.11 内山去年的电影排行中和marriage story 并列第一的电影，刚在B站上线。片头好：地面、积水、天空、流水、光影摇曳、刷洗声、浮沫合于一个长长的镜头。黑白。（脑中对电影的疑问：is this real？）男孩躺下：我死了，所以我不能说话。女仆躺下，两人头互相顶着：我也死了。我觉得这感觉还不错。（音乐不错。）父亲回来，豪华汽车入库碾到狗屎。拍摄女仆关掉房内大小灯具的行动路线，镜头旋转360°。日常中不断的清洗：地面、餐具、衣服、杯子……给自己倒了杯水。许多双层意义。电影中的电影，是《虎口脱险》，《蓝烟火》。地震？？大火。那个瑜伽动作，有趣的是伴随闭眼，全场跟随做动作的人里，似乎只有女仆做到了，但是场上无人见证她出色的平衡，甚至她自己也不知道。内山去年电影排行中和marriage story并列第一的电影。虽然我觉得他的电影品味蛮令人无语，但能明白roma合他品味的原因，这个人大概是会被这种每个情节画面都经过用心安排和构造的舒适感、丰富度折服的。有意思的画面太多了，也顺带查了故事后半的学生抗议、警察当街屠杀的事件，感觉和《颐和园》有点相似，且都是私人与时代两线交织。女仆（我应该用她名字！）长黑发美，也许是导演回忆的效应，她显得几乎圣洁。那个瑜伽动作，有趣的是，要伴随闭眼。全场跟着做动作的人里，似乎只有女仆做到了平稳不倒，但是场上无人见证她出色的平衡，甚至她自己也安安稳稳、没意识到。（有趣的是，虽然故事非常私人，镜头与人物之间却一直很有距离感，看了好久才明白她的脸，而她的特写好像只有那个重要丧失后，静止的、肖像式的时刻…尽管她几乎一直在画面里。也许是因为导演玩弄光影和物件的兴趣太强了。）那个负心男友也挺真实的，做了奥运安保，本来是自己一身功夫终于能有所归属，感觉到了自我价值，但不幸奥运安保成了政府维持稳定、打压学生工人的抗争的武器，其本人的个性也渐渐发狂，丑陋，依赖暴力威胁逃避问题，最后变成那天下午的屠杀者。最后的海真是治愈。结束又开始，用内山的话来说，就是：生活还要继续。噢，佩佩是天使少年。</p>
+<p><strong>一级恐惧</strong>，1997，爱德华诺顿
+演技好到让人觉得色情。那些眼神！！可口。片外个性好难缠，喜欢。诺顿在花絮里说，自己第一次拿到的剧本和最终剧本远不一样，包括角色的结巴设定，最后的即兴发挥，都是诺顿自己的想法，他说，相信一部电影会是许多机关不断运作形成的最终模样。这种真正的制作出好电影的体验、因初出茅庐的惊艳实力而得到的尊重和宽容，却也是他在这个出道奥斯卡提名作后，经常为了让作品有更好呈现而干涉、得罪众多的根源之一吧——为什么爱德华诺顿片约少。但我喜欢他。这样一种人生，值得，但更好的可能性，也更值得。</p>
+<p><strong>玫瑰之名</strong>，1986，Jean-Jacques Annaud，Sean Connery，130min：崇敬但并不十分向往原作那种高级解密，电影的粗俗和画面而非文字呈现的真切感对我的智力和心力来说刚刚好。其实，最盛大的价值，还属这两个半小时内种种可怜可怖的人物，而非我们智慧绝伦的导师，但我们不得不感激他，供出他理性的双眼，就像把迷宫中的毛线拖在身后、一边高声朗读一边不断左转的修士徒弟那样，我们的心灵有幸被引领着在这中世纪（或与之俨然相接的我们的现当代）灰黑修道院的一场场屠戮、惊悚和可笑的上帝之争夺中穿梭而过并安然存活，艾柯是否期待人们去阅读原书——以片末追随着导师那理性和思索的人格而放弃所爱哑女的少年人那样的形式？一边是信徒畏惧于笑对权威的威胁，想烧毁亚里士多德对喜剧的评说；一边是四场火，启示录式的接连暴死，穷人小屋里的鸡飞狗跳，永远为一切付出代价的贫民众人，火架上丑人的哼歌，在这两者之间，理性降临了，探明了，留下了证明，带走了珍册，离开的时候，仍旧难以为任何人做到任何事。玫瑰之名，插肩而过的爱，异化的虚伪宗教，无法查验的传说之书，从理性与知识到正义与真相的距离……（所谓诠释，是否实则就是取自己所需？）
+昔日玫瑰以其名芳，今人所持唯玫瑰之名。
+豆瓣的<a href='https://www.douban.com/review/3062031'>小说书评</a>，<a href='https://www.douban.com/review/1009950'>第二篇</a>，<a href='https://www.douban.com/book/1783098'>…</a>。（有此心思我还是更想读《红楼梦》。）
+关于建筑和布景 [摘]：&quot;为寻找中世纪风格的修道院，阿诺花三年时间足迹遍及意大利、西班牙、英国和联邦德国300多座修道院，最后才选定法兰克福附近的建于12世纪的埃伯巴哈修道院。阿诺在罗马郊外的一座山上搭建影片拍摄所需的修道院外景建筑，并在罗马一制片厂搭建影片中最重要最神秘的迷宫塔楼藏书室。影片中所有道具，从缮写室里的读经台、沉重的枝状大烛台到烫金古书一一是手工特制。&quot;</p>
+<p>史恩康纳莱饰演的方济会威廉以<a href='https://en.m.wikipedia.org/wiki/William_of_Ockham'>William of Occam</a>为原形，提出「如非必要，勿增实体」的奥坎剃刀原则(Occam&#39;s Razor, Ockham&#39;s Razor)。</p>
+<p>片中威廉：「要警惕预言家和那些准备为真理而献身的人，因为他们通常会拉上眾多的人与他们同归於尽，经常是先与他们，有时则是替他们去死。」</p>
+<p>道明会修士著黑袍，方济各会修士著灰袍。</p>
+<p>Monasterium sine libris est sicut civitas sine opibus. 没有藏书的修道院就好比是没有权力的国家。</p>
+<p>Exivi de paradiso. 驱出乐园。</p>
+<p><a href='https://open.spotify.com/episode/6Nc3QdruanhOFiZdGXxh8g?si=bX-hWNbLT2eCjaJt2GkVUg'><strong>时差#01 中国语境下的种族话语和种族主义（上） 时差 in-betweenness</strong></a>：粗線條觀點似乎是，人類學以人類為客體，人文學以人類為主體。前者在前兩三個世紀大大促成了人種學到優生學到種族歧視與種族迫害的發生。林奈：分類和命名的行為中包含的人類自負的權力。我想到：那神「說」要有光，才有光啊。類似某些故事裡，一旦被他人知道名字，就會失去自己天賦的超能力。二元化思維的惡果。但語言本身就可以是一種二元化，詞語把事物固定。從存在到區分到差別。
+優生學真是難以面對的難題啊：法農對黑格爾的一項批判。黑：若勞動由奴隸生產，則奴隸是歷史的主體、動力，當奴隸意識到這一點，就會給奴隸主帶來被替代的焦慮。法農：否定。因為奴隸不被認為是人類。「半人」。</p>
+<p><strong>罗翔</strong>：首次直播：提到书籍：1.以赛亚 柏林《刺猬与狐狸》：这是以赛亚柏林在20世纪五十年代一篇著名论文。比较难找到他的中文译文。2.以赛亚 柏林《自由及其背叛：人类自由的六个敌人》3.柏拉图《申辩篇》。关于流氓罪和“口袋罪”：此篇普法普史，是否暗中受到清华法学许教授被嫖娼事件的启发？</p>
+<p><strong><a href='https://www.bilibili.com/video/BV1ts41167Cd?'>20100217•HT N.Y.の中心で、鍋をつつく~</a></strong>
+19岁的三浦春马和20岁的佐藤健。无法用语言解释的无限美好，可爱灵动的两人。让我在想，好的伙伴不仅给予尝试的勇气、幸福的陪伴，甚至可以使人更加聪慧、善良。向表演教授接受指教还有临场表演那段实在尴尬到让人捂脸，但是转眼间，尼亚加拉大瀑布下面那段自发的即兴对戏，又充满少年淘气和意气，证明着两人敞开心灵的默契情谊。最后的十分钟幻灯片也是十足的珍宝。虽然镜头对真实和自然总是具有侵略性和的，但制作组对如何引导两人彼此个性和美好特点，做出了最好的拿捏，有张有弛的行程安排之外，有主摄影机外的给予的两人互相拍摄用的相机和摄影机、行车途中的几个奇妙小问答、做饭部分的无摄影师的固定机位。让我想到自己看过的佐仓和大西投石台广播在伊豆伊东、冲绳、北海道三次旅行特典，虽然也有很多亮点，但制作组水准和最终呈现的自然度还比不上约十年前的这一部。总之，非常喜欢，一对少年亲友的完美旅行纪录。</p>
+<p><strong><a href='http://b23.tv/0R7RmU'>老人们的处女作</a></strong>：选择自画像，可能是这位老人自爱、自信的缘故吧，很惊人，因为我了解的身边老人，依附于日常劳作或沉默度日的人居多，个别爱表达的则固执傲慢，很少会像这位奶奶这样表现出这样好的自我意识，很温和优雅。另外，感觉视频里的画材，不容易在第一次尝试时就得到基本的理解利用，有几个视频里好像笔太细太柴，只能画线，有的笔又太粗，都是大块铺张，感觉很受局限，有点可惜。个人感觉，有些老人更适合用毛笔加水彩吧，尽管现在这种更加鲜明，适合用于展览。另外很想知道这种一般会给予哪些材料和引导，怎么把控初次作画时的指导需求和自由度需求的平衡，还有是如何与这些老人相遇并且说服他们进行作画、采访和拍摄。总之，想法很好，太不完美。</p>
+<p><strong><a href='https://www.douban.com/note/772652969/'>她比菲利普·迪克更早设想纳粹的胜利</a></strong>：介绍女作家Katharine Burdekin在1937年出版的小说Swastika Night ，描述希特勒取胜七世纪后的德国。感兴趣。她对纳粹社会的描写和想象，与后人想象中充满非现实感的极端性不同，能够精妙地与通常人们熟悉的社会中的父权意识、宗教或道德控制完好接轨。但是我想问，是不是也只有欧洲人，能延续基督教倒塌之后的老框架，在地上维持邪恶秩序七世纪而不致彻底礼崩乐坏。一种能够返身退入中世纪的肌肉记忆？换做别地，没什么记忆，儒道佛什么的，本来就很弱，如今也无法再构造秩序，只有土匪和农民，不用百年就能造出混沌地狱来了。（所谓洼地，“历史积累”为0。所以对我们来说，更加新奇的未来，是会有的吗？不关心洪水（不可欢呼）。但洪水后的留下的，是有希望的土壤吗？像台湾、香港、日本、越南、泰国那样，如果有机会的话，或许能够比负重累累的西方人更“现代”？明治维新成功后再经历几百年后的我们也是。）【还是不要无根据地假想和诠释太多……】</p>
+<p><strong><a href='https://comic.pixiv.net/works/4203'>トルソの僕ら</a></strong> 墨佳 遼：<a href='https://ruah0404.tumblr.com/post/625209037261357056/%E3%83%88%E3%83%AB%E3%82%BD%E3%81%AE%E5%83%95%E3%82%89-pixiv%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF'>第一话</a> 太美好了 毛茸茸的爱 又细腻又剧烈又坚实 对人类来说 确实太不可思议了 好想抱住ナプタム 好想被抱在毛茸茸的爱的怀中 <a href='https://twitter.com/cart2017/status/924931382660415488?s=09'>啊啊啊</a> 第二話 海的故事，出於一種珍愛？沒有問來歷。拒絕了少女而努力融入漁夫大叔們，很有墨師態度。 第三話 人造人。大家全力去做、去付出的，只是不屬於自己目標的連年戰鬥，只是人類回歸（重新殖民）地球的暴力清掃環節，像這樣活著一定是痛苦又寂寞的事。但時子卻要在這悲慘的環節中不斷創造生命、敢於承認生命存在且不是奴隸、付出感情與關注，如此見證生生死死，並被那麼多人稱為&quot;母親&quot;，這一定需要非常穩重又深厚的愛。這光明實在太大了。人物設計和動作都無比美麗了而無任何過度。藝術品。第四话，假人外，一路美好最后呈现猎奇，比其他篇章短一半。墨老师也许不太欣赏这种柔弱美？第五话，简直美到杀人。啊啊啊啊啊啊啊啊啊。渡边，唐那，尼刻。墨老师我爱你我爱你！你是地球上最美好的存在。</p>
+<p><a href='https://www.bilibili.com/bangumi/play/ss34094?theme=movie'><strong>闪灵</strong></a>：143min 库布里克。对恐怖片不太感兴趣，在我看来，一方面是电影艺术典范（但封神重点还是演员演技），另一方面是展示了一个妻子，她乖乖承担家事，爱护孩子，闲时学习无线电和电气技术，鼓励丈夫的写作工作，打扰丈夫后被巨发脾气约法三章也忍耐承受，甚至愿意跑大远给睡到中午的丈夫送上全套早饭，然而当其丈夫是一个能力和心态都很差劲的Loser时，这个女人的命运依然可以变得多么恐怖无助。其他观点收集：蓬车西进拓荒和占地屠杀印第安人。蓬车时代(covered wagon times)的殖民组织Donner Party被困山中互杀吃人的事件。最后照片的日期是July 4th, 男主前世今生永远留在酒店中。Jack：“white man&#39;s burden……“；““Here&#39;s to 5 miserable months on the wagon...”, on the wagon: 戒酒, 完整说法是 &quot;on the water wagon&quot; 意为上了水车，是禁酒令时期流行的一句话，意为宁愿上水车喝水，也不喝酒。”237?? All work and no play makes Jack a dull boy. REDRUM： 红酒，血海，谋杀。黑人厨师热心进入深山酒店来看情况被白男一击毙命，不过车被那母子用去逃生，不说可能象征什么，就是好为他难过。</p>
+<p>&nbsp;</p>
 </body>
 </html>
